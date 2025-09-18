@@ -1,0 +1,74 @@
+[
+  {
+    "icdTitle": "Diabetes mellitus",
+    "icdKeywords": ["diabetes", "mellitus", "sugar"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM001", "treatment": "Madhumeha herbal decoction" }
+    ]
+  },
+  {
+    "icdTitle": "Dengue",
+    "icdKeywords": ["dengue"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM234", "treatment": "Rest, fluids, Guduchi decoction" }
+    ]
+  },
+  {
+    "icdTitle": "Hypertension",
+    "icdKeywords": ["hypertension", "high blood pressure", "bp"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM045", "treatment": "Sarpagandha root powder" },
+      { "system": "AYUSH", "code": "AYU101", "treatment": "Yoga and lifestyle modification" }
+    ]
+  },
+  {
+    "icdTitle": "Asthma",
+    "icdKeywords": ["asthma", "breath", "wheezing"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM078", "treatment": "Vasa leaf juice" },
+      { "system": "AYUSH", "code": "AYU202", "treatment": "Pranayama and herbal inhalation" }
+    ]
+  },
+  {
+    "icdTitle": "Tuberculosis",
+    "icdKeywords": ["tuberculosis", "tb", "koch's"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM099", "treatment": "Chyawanprash and supportive herbs" }
+    ]
+  },
+  {
+    "icdTitle": "Malaria",
+    "icdKeywords": ["malaria", "plasmodium", "fever"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM120", "treatment": "Artemisia annua decoction" }
+    ]
+  },
+  {
+    "icdTitle": "COVID-19",
+    "icdKeywords": ["covid", "corona", "sars-cov-2"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM300", "treatment": "Ayush Kwath and immunity boosters" }
+    ]
+  },
+  {
+    "icdTitle": "Rheumatoid arthritis",
+    "icdKeywords": ["arthritis", "rheumatoid", "joint pain"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM150", "treatment": "Shallaki and Guggulu tablets" }
+    ]
+  },
+  {
+    "icdTitle": "Migraine",
+    "icdKeywords": ["migraine", "headache", "pain"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM175", "treatment": "Brahmi and Shankhpushpi syrup" }
+    ]
+  },
+  {
+    "icdTitle": "Psoriasis",
+    "icdKeywords": ["psoriasis", "skin", "itching"],
+    "ayushCodes": [
+      { "system": "NAMASTE", "code": "NAM210", "treatment": "Neem oil and herbal ointments" }
+    ]
+  }
+]

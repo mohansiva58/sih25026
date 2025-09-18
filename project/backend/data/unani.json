@@ -1,0 +1,2540 @@
+[
+  {
+    "Sr No.": "1",
+    "NAMC_ID": "0",
+    "NAMC_CODE": "O-6",
+    "Arabic_term": "رطوبت غریزیہ",
+    "NAMC_TERM": "Ruṭūbat Gharīziyya",
+    "Short_definition": "Innate humour",
+    "Long_definition": "The moistness of an organ which remains in equilibrium, qualitatively and quantitatively, in accordance to the temperament of that organ."
+  },
+  {
+    "Sr No.": "2",
+    "NAMC_ID": "1",
+    "NAMC_CODE": "UM",
+    "Arabic_term": "",
+    "NAMC_TERM": "Unani Medicine",
+    "Short_definition": "",
+    "Long_definition": ""
+  },
+  {
+    "Sr No.": "3",
+    "NAMC_ID": "2",
+    "NAMC_CODE": "UM-DIS",
+    "Arabic_term": "",
+    "NAMC_TERM": "Disorders",
+    "Short_definition": "",
+    "Long_definition": ""
+  },
+  {
+    "Sr No.": "4",
+    "NAMC_ID": "3",
+    "NAMC_CODE": "A",
+    "Arabic_term": "امراض نظام اعصاب و دماغ",
+    "NAMC_TERM": "Amrāḍ-i-Niẓām-i-A‘ṣāb-o-Dimāgh",
+    "Short_definition": "Diseases of Nervous System",
+    "Long_definition": ""
+  },
+  {
+    "Sr No.": "5",
+    "NAMC_ID": "4",
+    "NAMC_CODE": "A-1",
+    "Arabic_term": "بيضہ و خوذہ",
+    "NAMC_TERM": "Bayḍa-o-Khūdha",
+    "Short_definition": "Organic headache/Helmet headache",
+    "Long_definition": "A severe type of chronic headache which involves the whole head. The patient feels that someone is hammering his head. Most of the physicians are of the view that both these types are same but Dā’ūd Anṭākī differentiates them by the site of pain as Bayḍa is a headache which occurs in the central part of head while Khūdha is a headache which is experienced on the periphery of head."
+  },
+  {
+    "Sr No.": "6",
+    "NAMC_ID": "5",
+    "NAMC_CODE": "A-2",
+    "Arabic_term": "شقيقہ",
+    "NAMC_TERM": "Shaqīqa",
+    "Short_definition": "Migraine",
+    "Long_definition": "A type of severe headache which involves one half of head whether it is right or left. It is an episodic type of pain accompanied with nausea and vomiting."
+  },
+  {
+    "Sr No.": "7",
+    "NAMC_ID": "6",
+    "NAMC_CODE": "A-2.1",
+    "Arabic_term": "شقيقہ حارہ",
+    "NAMC_TERM": "Shaqīqa Ḥārra",
+    "Short_definition": "Acute migraine",
+    "Long_definition": "A type of migraine which is caused by predominance of Ṣafrā’ (yellow bile) and Dam (blood/sanguine) in the body."
+  },
+  {
+    "Sr No.": "8",
+    "NAMC_ID": "7",
+    "NAMC_CODE": "A-2.2",
+    "Arabic_term": "شقيقہ باردہ",
+    "NAMC_TERM": "Shaqīqa Bārida",
+    "Short_definition": "Chronic migraine",
+    "Long_definition": "A type of migraine which is caused by predominance of Balgham (phlegm) and Sawdā’ (black bile) in the body."
+  },
+  {
+    "Sr No.": "9",
+    "NAMC_ID": "8",
+    "NAMC_CODE": "A-3",
+    "Arabic_term": "عصابہ",
+    "NAMC_TERM": "‘Iṣāba",
+    "Short_definition": "Frontal headache",
+    "Long_definition": "It is a type of severe headache which occurs on the forehead above the eyebrow. It can involve either sides or both sides. The intensity of pain gradually reduces with the sunset."
+  },
+  {
+    "Sr No.": "10",
+    "NAMC_ID": "9",
+    "NAMC_CODE": "A-4",
+    "Arabic_term": "حس دماغ",
+    "NAMC_TERM": "Ḥiss-i-Dimāgh",
+    "Short_definition": "sensation of itching in brain",
+    "Long_definition": ""
+  },
+  {
+    "Sr No.": "11",
+    "NAMC_ID": "10",
+    "NAMC_CODE": "A-5",
+    "Arabic_term": "سرسام",
+    "NAMC_TERM": "Sarsām",
+    "Short_definition": "Meningitis",
+    "Long_definition": "The inflammation of meninges of brain or brain itself."
+  },
+  {
+    "Sr No.": "12",
+    "NAMC_ID": "11",
+    "NAMC_CODE": "A-5.1",
+    "Arabic_term": "سرسام دموي/ قرانیطس",
+    "NAMC_TERM": "Sarsām Damawī/ Qarānīṭus",
+    "Short_definition": "Acute meningitis",
+    "Long_definition": "The inflammation of meninges of brain due to predominance of Dam (blood/sanguine)."
+  },
+  {
+    "Sr No.": "13",
+    "NAMC_ID": "12",
+    "NAMC_CODE": "A-5.2",
+    "Arabic_term": "سرسام صفراوي/قرانیطس خالص",
+    "NAMC_TERM": "Sarsām Ṣafrāwī/ Qarānīṭus Khāliṣ",
+    "Short_definition": "Bilious meningitis",
+    "Long_definition": "The inflammation of meninges of brain due to predominance of Ṣafrā’ (yellow bile)."
+  },
+  {
+    "Sr No.": "14",
+    "NAMC_ID": "13",
+    "NAMC_CODE": "A-5.3",
+    "Arabic_term": "سرسام سوداوي",
+    "NAMC_TERM": "Sarsām Sawdāwī",
+    "Short_definition": "Melancholic meningitis",
+    "Long_definition": "The inflammation of meninges of brain due to predominance of Sawdā’ (black bile)."
+  },
+  {
+    "Sr No.": "15",
+    "NAMC_ID": "14",
+    "NAMC_CODE": "A-5.4",
+    "Arabic_term": "سرسام بلغمي/ لیثرغس",
+    "NAMC_TERM": "Sarsām Balghamī/ Lītharghus",
+    "Short_definition": "Phlegmatic meningitis",
+    "Long_definition": "The inflammation of meninges of brain due to predominance of Balgham (phlegm)."
+  },
+  {
+    "Sr No.": "16",
+    "NAMC_ID": "15",
+    "NAMC_CODE": "A-5.5",
+    "Arabic_term": "سرسام حقيقي",
+    "NAMC_TERM": "Sarsām Ḥaqīqī",
+    "Short_definition": "inflammation of brain or its meninges",
+    "Long_definition": "The inflammation of meninges or tissues of brain."
+  },
+  {
+    "Sr No.": "17",
+    "NAMC_ID": "16",
+    "NAMC_CODE": "A-5.6",
+    "Arabic_term": "سرسام غير حقيقي",
+    "NAMC_TERM": "Sarsām Ghayr Ḥaqīqī",
+    "Short_definition": "Meningismus",
+    "Long_definition": "In this condition, symptom of Sarsām (meningitis) occurs without any inflammatory changes in the brain. This is caused by other reason e.g. accumulation of Bukhārāt (gases) in the brain."
+  },
+  {
+    "Sr No.": "18",
+    "NAMC_ID": "17",
+    "NAMC_CODE": "A-6",
+    "Arabic_term": "فلغمونى دماغي",
+    "NAMC_TERM": "Falghamūnī Dimāghī",
+    "Short_definition": "Phlegmon",
+    "Long_definition": "A type of acute inflammation of brain tissues caused by accumulation of putrified blood in the brain."
+  },
+  {
+    "Sr No.": "19",
+    "NAMC_ID": "18",
+    "NAMC_CODE": "A-7",
+    "Arabic_term": "شفا قلوس دماغي",
+    "NAMC_TERM": "Shafāqalūs Dimāghī",
+    "Short_definition": "inflammation of vessels of brain",
+    "Long_definition": "A type of inflammation of the vessels of brain caused by the accumulation of Muḥtariq Dam (burnt blood/sanguine) in the vessels."
+  },
+  {
+    "Sr No.": "20",
+    "NAMC_ID": "19",
+    "NAMC_CODE": "A-8",
+    "Arabic_term": "حمرہ دماغيہ",
+    "NAMC_TERM": "Ḥumra Dimāghiyya",
+    "Short_definition": "Cerebral congestion",
+    "Long_definition": "A type of inflammation of brain tissues caused by the accumulation of Muḥtariq Sawdā’ (burnt black bile) or sanguine mixed with Ṣafrā’ (yellow bile) in the brain."
+  },
+  {
+    "Sr No.": "21",
+    "NAMC_ID": "20",
+    "NAMC_CODE": "A-9",
+    "Arabic_term": "عطاش",
+    "NAMC_TERM": "‘Uṭāsh",
+    "Short_definition": "sub acute inflammation of brain",
+    "Long_definition": "Literal meaning of  ‘Uṭāsh is excessive thirst. It is a disease which occurs commonly in children. In Unani System of Medicine, it is considered to be a sub acute type of inflammation of brain in which the child experiences an increased thirst."
+  },
+  {
+    "Sr No.": "22",
+    "NAMC_ID": "21",
+    "NAMC_CODE": "A-10",
+    "Arabic_term": "ماشریٰ",
+    "NAMC_TERM": "Māshrā",
+    "Short_definition": "Erysipelas",
+    "Long_definition": "Māshrā is a Suryānī word which literally means acute inflammation of any part of body due to predominance of Dam (blood/sanguine) and Ṣafrā’ (yellow bile). Ancient Unani physicians have used this word for the inflammation of face and forehead. Ibn Sīnā had included this term for the acute inflammation of liver which is caused exclusively by the predominance of Ṣafrā’ (yellow bile). But most recent Unani physicians describe this as an acute inflammation of face and forehead in which the face becomes red and swollen accompanied with pain and itching."
+  },
+  {
+    "Sr No.": "23",
+    "NAMC_ID": "22",
+    "NAMC_CODE": "A-11",
+    "Arabic_term": "ماء الراس",
+    "NAMC_TERM": "Mā’ al-Ra’s",
+    "Short_definition": "Hydrocephalus",
+    "Long_definition": "Accumulation of fluid in the head. This can be of two types, either the accumulation is beneath the scalp or inside the head. If it occurs inside the head, the patient experiences heaviness of head, eyes remain open with continuous lacrimation and this is usually a fatal condition. When the fluid is accumulated beneath the scalp due to bad obstetric procedure, it is usually curable and subsides gradually (caput succeedenum)."
+  },
+  {
+    "Sr No.": "24",
+    "NAMC_ID": "23",
+    "NAMC_CODE": "A-12",
+    "Arabic_term": "سبات",
+    "NAMC_TERM": "Subāt",
+    "Short_definition": "Coma",
+    "Long_definition": "A prolonged phase of deep unconsciousness."
+  },
+  {
+    "Sr No.": "25",
+    "NAMC_ID": "24",
+    "NAMC_CODE": "A-12.1",
+    "Arabic_term": "سبات سهرى",
+    "NAMC_TERM": "Subāt Sahrī",
+    "Short_definition": "Coma vigil",
+    "Long_definition": "A type of deep sleep with phases of consciousness in between. This type of unconsciousness is due to the predominance of Balgham (phlegm). According to Qarshī and most Unani physicians this is a type of inflammation of brain which is due to predominance of Ṣafrā’ (yellow bile) and Balgham (phlegm)."
+  },
+  {
+    "Sr No.": "26",
+    "NAMC_ID": "25",
+    "NAMC_CODE": "A-12.2",
+    "Arabic_term": "سبات بارد",
+    "NAMC_TERM": "Subāt Bārid",
+    "Short_definition": "coma due to coldness of brain",
+    "Long_definition": "A type of coma or unconsciousness which is caused either by the exposure of cold environment or by the intake of narcotic drugs."
+  },
+  {
+    "Sr No.": "27",
+    "NAMC_ID": "26",
+    "NAMC_CODE": "A-12.3",
+    "Arabic_term": "سبات رطوبى",
+    "NAMC_TERM": "Subāt Ruṭūbī",
+    "Short_definition": "coma due to moistness of brain",
+    "Long_definition": "A type of coma which is caused by the predominance of Ruṭūbat (moistness) in the body which in turn causes hindrance in the process of oxygenation."
+  },
+  {
+    "Sr No.": "28",
+    "NAMC_ID": "27",
+    "NAMC_CODE": "A-12.4",
+    "Arabic_term": "سبات دموي",
+    "NAMC_TERM": "Subāt Damawī",
+    "Short_definition": "Sanguineous coma",
+    "Long_definition": "A type of coma which is caused by the predominance of Dam (blood/sanguine) in the body."
+  },
+  {
+    "Sr No.": "29",
+    "NAMC_ID": "28",
+    "NAMC_CODE": "A-12.5",
+    "Arabic_term": "سبات بخارى",
+    "NAMC_TERM": "Subāt Bukhārī",
+    "Short_definition": "Coma due to vapours",
+    "Long_definition": "A type of coma which is caused by the gases produced by bad humours of stomach, lungs, intestine and uterus."
+  },
+  {
+    "Sr No.": "30",
+    "NAMC_ID": "29",
+    "NAMC_CODE": "A-12.6",
+    "Arabic_term": "سبات ضعفي",
+    "NAMC_TERM": "Subāt Ḍu‘fī",
+    "Short_definition": "coma due to weakness of brain",
+    "Long_definition": "A type of coma which is caused by the weakness of brain and nerves."
+  },
+  {
+    "Sr No.": "31",
+    "NAMC_ID": "30",
+    "NAMC_CODE": "A-12.7",
+    "Arabic_term": "سبات ضربى",
+    "NAMC_TERM": "Subāt Ḍarbī",
+    "Short_definition": "Traumatic coma",
+    "Long_definition": "A type of coma due to injury of head and brain especially of temporal region."
+  },
+  {
+    "Sr No.": "32",
+    "NAMC_ID": "31",
+    "NAMC_CODE": "A-13",
+    "Arabic_term": "سهر",
+    "NAMC_TERM": "Sahar",
+    "Short_definition": "Insomnia",
+    "Long_definition": "A disease in which the patient remains in wakeful state all the time."
+  },
+  {
+    "Sr No.": "33",
+    "NAMC_ID": "32",
+    "NAMC_CODE": "A-13.1",
+    "Arabic_term": "سهر يابس",
+    "NAMC_TERM": "Sahar Yābis",
+    "Short_definition": "Insomnia due to dryness",
+    "Long_definition": "A state of wakefulness which is caused by the predominance of Yubūsat (dryness) either in terms of Mādda or matter i.e. Sawdā’ (black bile) and Ṣafrā’ (yellow bile) or simple."
+  },
+  {
+    "Sr No.": "34",
+    "NAMC_ID": "33",
+    "NAMC_CODE": "A-13.2",
+    "Arabic_term": "سهر رطوبى",
+    "NAMC_TERM": "Sahar Ruṭūbī",
+    "Short_definition": "Insomnia due to moistness",
+    "Long_definition": "A state of wakefulness which is due to accumulation of Ruṭūbat (moistness) in the brain."
+  },
+  {
+    "Sr No.": "35",
+    "NAMC_ID": "34",
+    "NAMC_CODE": "A-14",
+    "Arabic_term": "نسيان",
+    "NAMC_TERM": "Nisyān",
+    "Short_definition": "Amnesia",
+    "Long_definition": "A state of forgetfulness."
+  },
+  {
+    "Sr No.": "36",
+    "NAMC_ID": "35",
+    "NAMC_CODE": "A-14.1",
+    "Arabic_term": "نسيان باردرطب",
+    "NAMC_TERM": "Nisyān Bārid Raṭb",
+    "Short_definition": "forgetfulness due to coldness and moistness/ Reterograde Amnesia",
+    "Long_definition": "A state of forgetfulness caused by the predominance of Burūdat (coldness) or Ruṭūbat (moistness) which is either simple or compound."
+  },
+  {
+    "Sr No.": "37",
+    "NAMC_ID": "36",
+    "NAMC_CODE": "A-14.2",
+    "Arabic_term": "نسيان بارد يابس",
+    "NAMC_TERM": "Nisyān Bārid Yābis",
+    "Short_definition": "forgetfulness due to coldness and dryness/Anterograde Amnesia",
+    "Long_definition": "A state of forgetfulness caused by the predominance of Burūdat (coldness) or Yubūsat (dryness)."
+  },
+  {
+    "Sr No.": "38",
+    "NAMC_ID": "37",
+    "NAMC_CODE": "A-14.3",
+    "Arabic_term": "نسيان حار يابس",
+    "NAMC_TERM": "Nisyān Ḥārr Yābis",
+    "Short_definition": "forgetfulness due to heat and dryness",
+    "Long_definition": "A state of forgetfulness which is caused by the predominance of Yubūsat (dryness) in the brain tissues. This state is incurable if there is a decrease in tissue of brain."
+  },
+  {
+    "Sr No.": "39",
+    "NAMC_ID": "38",
+    "NAMC_CODE": "A-15",
+    "Arabic_term": "اختلاط الذهن",
+    "NAMC_TERM": "Ikhtlāṭ al-Dhahn",
+    "Short_definition": "mental derangement",
+    "Long_definition": "A confused state of mind not reaching the level of Junūn. This is also a type of melancholia."
+  },
+  {
+    "Sr No.": "40",
+    "NAMC_ID": "39",
+    "NAMC_CODE": "A-16",
+    "Arabic_term": "هذيان",
+    "NAMC_TERM": "Hadhayān",
+    "Short_definition": "Delirium",
+    "Long_definition": "A state of stupor in which the patient talks continuously and irrelevantly."
+  },
+  {
+    "Sr No.": "41",
+    "NAMC_ID": "40",
+    "NAMC_CODE": "A-17",
+    "Arabic_term": "حمق",
+    "NAMC_TERM": "Ḥumq",
+    "Short_definition": "Dementia",
+    "Long_definition": "The weakness of the thinking faculties of brain which in turn leads to distraction of mind. These patients can not make a balanced state or equilibrium in social environment. The patient usually makes himself busy in doing irrelevant chores similar to children."
+  },
+  {
+    "Sr No.": "42",
+    "NAMC_ID": "41",
+    "NAMC_CODE": "A-18",
+    "Arabic_term": "رعونت",
+    "NAMC_TERM": "Ru‘ūnat",
+    "Short_definition": "egomania",
+    "Long_definition": "A type of weakness of the thinking faculties of brain in which the patient becomes egoistic. The patient usually expresses violent behaviour and feels himself superior to others."
+  },
+  {
+    "Sr No.": "43",
+    "NAMC_ID": "42",
+    "NAMC_CODE": "A-19",
+    "Arabic_term": "مالنخوليا",
+    "NAMC_TERM": "Mālankhūliyā",
+    "Short_definition": "Melancholia",
+    "Long_definition": "This word is a combination of two words. Mālan, meaning black and Khūliyā, meaning Ṣafrā’ (yellow bile). According to ancient Unani physicians this is a form of severe depression caused by the accumulation of Muḥtariq Sawdā’ (burnt black bile) or Muḥtariq Ṣafrā’ (burnt yellow bile) in the brain. Patients experience false perceptions."
+  },
+  {
+    "Sr No.": "44",
+    "NAMC_ID": "43",
+    "NAMC_CODE": "A-19.1",
+    "Arabic_term": "مالنخوليا دموي",
+    "NAMC_TERM": "Mālankhūliyā Damawī",
+    "Short_definition": "Sanguineous melancholia",
+    "Long_definition": "A type of melancholia caused by the accumulation of Muḥtariq Dam (burnt sanguine) in the brain. It is characterized by redness of eyes, pulsus magnus and confused state of mind along with feeling of happiness."
+  },
+  {
+    "Sr No.": "45",
+    "NAMC_ID": "44",
+    "NAMC_CODE": "A-19.2",
+    "Arabic_term": "مالنخوليا بلغمي",
+    "NAMC_TERM": "Mālankhūliyā Balghamī",
+    "Short_definition": "Phlegmatic melancholia",
+    "Long_definition": "A type of melancholia caused by the accumulation of Muḥtariq Balgham (burnt phlegm) in brain. It is characterized by laziness, comparatively cold and clammy skin along with other features of melancholia."
+  },
+  {
+    "Sr No.": "46",
+    "NAMC_ID": "45",
+    "NAMC_CODE": "A-19.3",
+    "Arabic_term": "مالنخوليا صفراوي",
+    "NAMC_TERM": "Mālankhūliyā Ṣafrāwī",
+    "Short_definition": "Bilious melancholia",
+    "Long_definition": "A type of melancholia caused by the accumulation of Muḥtariq Ṣafrā’ (burnt yellow bile) in brain. It is characterized by insanity, anger, delirium, restlessness and insomnia."
+  },
+  {
+    "Sr No.": "47",
+    "NAMC_ID": "46",
+    "NAMC_CODE": "A-19.4",
+    "Arabic_term": "مالنخوليا سوداوي",
+    "NAMC_TERM": "Mālankhūliyā Sawdāwī",
+    "Short_definition": "Melancholic melancholia",
+    "Long_definition": "A type of melancholia caused by the accumulation of Muḥtariq Sawdā’ (burnt black bile) and Sawdā’ (black bile) in the brain. It is characterized by fear, disturbing thoughts, and crying disposition"
+  },
+  {
+    "Sr No.": "48",
+    "NAMC_ID": "47",
+    "NAMC_CODE": "A-19.5",
+    "Arabic_term": "قطرب/ علة الذئب/ جنون ذئبي",
+    "NAMC_TERM": "Quṭrub/ ‘Illa al-Dhi’b/ Junūn Dhi’bī",
+    "Short_definition": "Lycanthropy",
+    "Long_definition": "A type of melancholia caused by Muḥtariq Ṣafrā’ (burnt yellow bile). It is a chronic condition as its causative humour is more viscous and acute in nature. In this condition patient likes to live in isolation. During the daytime he stays in graveyards and comes out at night. He becomes irritative, emaciated and pale. Sometimes, he attacks other persons due to irritation. He makes noises resembling with dog and cock. Ulcers of calf muscles are also observed in these patients."
+  },
+  {
+    "Sr No.": "49",
+    "NAMC_ID": "48",
+    "NAMC_CODE": "A-19.6",
+    "Arabic_term": "مالنخوليا مراقي /نفخ مراقی /مراقیہ /علّت نافخہ/شرسوفیہ",
+    "NAMC_TERM": "Mālankhūliya Marāqī/ Nafkh Marāqī/ Marāqiyya/ ‘Illat Nāfikha/Sharsūfiya",
+    "Short_definition": "Psychoneurosis",
+    "Long_definition": "This type of disorder occurs when burnt humour get accumulated in the peritoneum because of internal heat and leads to the formation of Bukhārāt (gases) of bad quality. These vapours cause the disturbance in the brain."
+  },
+  {
+    "Sr No.": "50",
+    "NAMC_ID": "49",
+    "NAMC_CODE": "A-20",
+    "Arabic_term": "جنون/ وسواس",
+    "NAMC_TERM": "Junūn/ Waswās",
+    "Short_definition": "Insanity",
+    "Long_definition": "A disturbed state of mind in which patient becomes insane. In this condition patient develops false perceptions and hallucinations accompanied with behavioural changes. Patient usually indulges in misbehaviour and does not follow discipline."
+  },
+  {
+    "Sr No.": "51",
+    "NAMC_ID": "50",
+    "NAMC_CODE": "A-21",
+    "Arabic_term": "مانيا/ جنون سبعی",
+    "NAMC_TERM": "Māniyā/ Junūn Saba‘ī",
+    "Short_definition": "Psychosis/Mania",
+    "Long_definition": "A severe form of agitated behaviour."
+  },
+  {
+    "Sr No.": "52",
+    "NAMC_ID": "51",
+    "NAMC_CODE": "A-22",
+    "Arabic_term": "داء الكلب",
+    "NAMC_TERM": "Dā’ al-Kalb",
+    "Short_definition": "Cynanthropy",
+    "Long_definition": "A combined state of agitation and relaxation caused by the accumulation of Muḥtariq Sawdā’ (burnt black bile) in the brain."
+  },
+  {
+    "Sr No.": "53",
+    "NAMC_ID": "52",
+    "NAMC_CODE": "A-23",
+    "Arabic_term": "صبارا",
+    "NAMC_TERM": "Ṣubārā",
+    "Short_definition": "Maniac phrenitis",
+    "Long_definition": "An intensely disturbed state of mind accompanied with fever. It is caused by Muḥtariq Ṣafrā’ (burnt yellow bile) and resembles very much with Sarsām Ṣafrāwī in terms of fever and the condition of urine."
+  },
+  {
+    "Sr No.": "54",
+    "NAMC_ID": "53",
+    "NAMC_CODE": "A-24",
+    "Arabic_term": "عشق",
+    "NAMC_TERM": "‘Ishq",
+    "Short_definition": "Erotomania",
+    "Long_definition": "A type of hallucination which resembles Mālankhūliyā. In this condition, patient usually visualises the picture or thought of his beloved person in order to feel him/her."
+  },
+  {
+    "Sr No.": "55",
+    "NAMC_ID": "54",
+    "NAMC_CODE": "A-25",
+    "Arabic_term": "سدر و دوار",
+    "NAMC_TERM": "Sadr-o-Duwār",
+    "Short_definition": "Vertigo and giddiness",
+    "Long_definition": "Sadr is a disease of brain in which the person experiences darkness on standing. This condition usually accompanies with heaviness of head, tinnitus and confusion. Duwār is similar to Sadr but in this condition the patients feel giddiness also."
+  },
+  {
+    "Sr No.": "56",
+    "NAMC_ID": "55",
+    "NAMC_CODE": "A-25.1",
+    "Arabic_term": "سدر و دوار دماغي دموي",
+    "NAMC_TERM": "Sadr-o-Duwār Dimāghī Damawī",
+    "Short_definition": "Sanguineous vertigo and giddiness",
+    "Long_definition": "A type of vertigo and giddiness caused by the accumulation of Dam (blood /sanguine) in the brain itself. It is characterized by frequent episodes of giddiness, flushing of face, redness of eyes and elevated temperature of head. Initially, it is accompanied with lacrimation."
+  },
+  {
+    "Sr No.": "57",
+    "NAMC_ID": "56",
+    "NAMC_CODE": "A-25.2",
+    "Arabic_term": "سدر و دوار دماغي بلغمي",
+    "NAMC_TERM": "Sadr-o-Duwār Dimāghī Balghamī",
+    "Short_definition": "Phlegmatic vertigo and giddiness",
+    "Long_definition": "Mostly it occurs due to the accumulation of Balgham (phlegm) in the brain. It is characterized by vertigo and giddiness along with heaviness of head, increased salivation, decreased thirst, altered sensorium, increased sleep and pulsus mollis."
+  },
+  {
+    "Sr No.": "58",
+    "NAMC_ID": "57",
+    "NAMC_CODE": "A-25.3",
+    "Arabic_term": "سدر و دوار دماغي صفراوي",
+    "NAMC_TERM": "Sadr-o-Duwār Dimāghī Ṣafrāwī",
+    "Short_definition": "Bilious vertigo and giddiness",
+    "Long_definition": "A type of vertigo and giddiness caused by the accumulation of Ṣafrā’ (yellow bile) in the brain. It is characterized by vertigo and giddiness along with pale face, bitter taste, pulsus velox and thirst."
+  },
+  {
+    "Sr No.": "59",
+    "NAMC_ID": "58",
+    "NAMC_CODE": "A-25.4",
+    "Arabic_term": "سدر و دوار دماغي سوداوي",
+    "NAMC_TERM": "Sadr-o-Duwār Dimāghī Sawdāwī",
+    "Short_definition": "Melancholic vertigo and giddiness",
+    "Long_definition": "A type of vertigo and giddiness caused by the accumulation of Sawdā’ (black bile) in the brain. It is characterized by excessive thoughts and sleeplessness, pulsus debilis and pulses durus."
+  },
+  {
+    "Sr No.": "60",
+    "NAMC_ID": "59",
+    "NAMC_CODE": "A-25.5",
+    "Arabic_term": "سدر و دوار شركي",
+    "NAMC_TERM": "Sadr-o-Duwār Shirkī",
+    "Short_definition": "Secondary vertigo and giddiness",
+    "Long_definition": "The state of Sadr and Duwār which comes as a complication of some other systemic diseases."
+  },
+  {
+    "Sr No.": "61",
+    "NAMC_ID": "60",
+    "NAMC_CODE": "A-26",
+    "Arabic_term": "لویٰ و فيحذج/ بيجيذق/ اللویٰ",
+    "NAMC_TERM": "Lawā-o-Fayḥadhaj/ Bījīdhaq/ Al-Lawā",
+    "Short_definition": "excessive lethargy and fatigue",
+    "Long_definition": "Lawā is a condition which occurs in persons who lead a sedentary life and take alcohol along with rich diet. In these persons, there is an excessive accumulation of gases in the body which in turn leads to heaviness of heart, increased fatigue and lethargy."
+  },
+  {
+    "Sr No.": "62",
+    "NAMC_ID": "61",
+    "NAMC_CODE": "A-27",
+    "Arabic_term": "كابوس/ الخانق/ا لجاثوم والنيدلان/ خانوق/ ضاغوط",
+    "NAMC_TERM": "Kābūs/ Al-Khāniq/ Al-Jāthūm wa’l Nīdlān/ Khānūq/ Ḍāghūṭ",
+    "Short_definition": "Nightmare/Incubus",
+    "Long_definition": "Its literal meaning is to create pressure. In this condition patient feels pressure on his chest in lying posture while asleep. He feels choked and asphyxiated."
+  },
+  {
+    "Sr No.": "63",
+    "NAMC_ID": "62",
+    "NAMC_CODE": "A-27.1",
+    "Arabic_term": "كابوس دموي",
+    "NAMC_TERM": "Kābūs Damawī",
+    "Short_definition": "Sanguineous nightmare",
+    "Long_definition": "It is caused by the vapours arising out of thick Dam (sanguine). It is characterized by redness of body, eyes and imagery of red colored objects along with other symptoms of Kābūs."
+  },
+  {
+    "Sr No.": "64",
+    "NAMC_ID": "63",
+    "NAMC_CODE": "A-27.2",
+    "Arabic_term": "كابوس بلغمي",
+    "NAMC_TERM": "Kābūs Balghamī",
+    "Short_definition": "Phlegmatic nightmare",
+    "Long_definition": "It is caused by the vapours arising out of thick phlegm towards already weakened brain. Apart from all the symptoms of Kābūs it is characterized by lethargy, imagery of white/green colored objects."
+  },
+  {
+    "Sr No.": "65",
+    "NAMC_ID": "64",
+    "NAMC_CODE": "A-27.3",
+    "Arabic_term": "كابوس بارد",
+    "NAMC_TERM": "Kābūs Bārid",
+    "Short_definition": "Nightmare due to cold",
+    "Long_definition": "This type of Kābūs occurs due to exposure of head to cold during sleep, inspite of the absence of predominance of any humour. It will not be characterized by the general symptoms of Kābūs and predominance of any humour."
+  },
+  {
+    "Sr No.": "66",
+    "NAMC_ID": "65",
+    "NAMC_CODE": "A-28",
+    "Arabic_term": "صرع",
+    "NAMC_TERM": "Ṣar‘",
+    "Short_definition": "Epilepsy",
+    "Long_definition": "Its literal meaning is to fall down. It is an episodic disease in which sensory and motor functions of the organs are stopped. The patient falls down and experiences convulsions and frothing from the mouth."
+  },
+  {
+    "Sr No.": "67",
+    "NAMC_ID": "66",
+    "NAMC_CODE": "A-28.1",
+    "Arabic_term": "صرع دماغي سوداوي",
+    "NAMC_TERM": "Ṣar‘ Dimāghī Sawdāwī",
+    "Short_definition": "Melancholic epilepsy",
+    "Long_definition": "A type of Ṣar‘ caused by the obstruction of ventricles of brain by the thick black bile which causes hindrance in the flow of motor faculties and psychic pneuma with in the related nerves."
+  },
+  {
+    "Sr No.": "68",
+    "NAMC_ID": "67",
+    "NAMC_CODE": "A-28.2",
+    "Arabic_term": "صرع دماغي اصلي",
+    "NAMC_TERM": "Ṣar‘ Dimāghī Aṣlī",
+    "Short_definition": "Primary epilepsy",
+    "Long_definition": "A condition where the cause of Ṣar‘ (epilepsy) is in the brain itself."
+  },
+  {
+    "Sr No.": "69",
+    "NAMC_ID": "68",
+    "NAMC_CODE": "A-28.3",
+    "Arabic_term": "صرع شركي",
+    "NAMC_TERM": "Ṣar‘ Shirkī",
+    "Short_definition": "Secondary epilepsy",
+    "Long_definition": "A condition when Ṣar‘ (epilepsy) occurs as a complication of other diseases of the body."
+  },
+  {
+    "Sr No.": "70",
+    "NAMC_ID": "69",
+    "NAMC_CODE": "A-28.4",
+    "Arabic_term": "صرع لسعي",
+    "NAMC_TERM": "Ṣar‘ Las‘ī",
+    "Short_definition": "Sting epilepsy",
+    "Long_definition": "A type of Ṣar‘ (epilepsy) that occurs due to scorpion or insect bite."
+  },
+  {
+    "Sr No.": "71",
+    "NAMC_ID": "70",
+    "NAMC_CODE": "A-28.5",
+    "Arabic_term": "صرع الاطفال",
+    "NAMC_TERM": "Ṣar‘ al-Aṭfāl",
+    "Short_definition": "Infantile epilepsy",
+    "Long_definition": "Epilepsy that occurs in children. Affected children experience convulsions with frothing from mouth. Most physicians are of the view that Umm al-Ṣibyān and Rīḥ al-Ṣibyān are one and the same as is Ṣar‘ al-Aṭfāl, but some physicians do not support this statement. They think that Umm al-Ṣibyān is a type of Ṣar‘ (epilepsy) which is accompanied with high fever."
+  },
+  {
+    "Sr No.": "72",
+    "NAMC_ID": "71",
+    "NAMC_CODE": "A-28.6",
+    "Arabic_term": "صرع بدني",
+    "NAMC_TERM": "Ṣar‘ Badanī",
+    "Short_definition": "epilepsy due to vapours",
+    "Long_definition": "Epilepsy of this type occurs when Radī Bukhārāt (putrefied gases) from the body get accumulated in the brain."
+  },
+  {
+    "Sr No.": "73",
+    "NAMC_ID": "72",
+    "NAMC_CODE": "A-28.7",
+    "Arabic_term": "صرع اطرافي",
+    "NAMC_TERM": "Ṣar‘ Aṭrāfī",
+    "Short_definition": "epilepsy due to the involvement of extremities",
+    "Long_definition": "Epilepsy of this type occurs when Radī Bukhārāt (putrefied gases) from hand and legs get collected in the brain."
+  },
+  {
+    "Sr No.": "74",
+    "NAMC_ID": "73",
+    "NAMC_CODE": "A-28.8",
+    "Arabic_term": "صرع رحمي",
+    "NAMC_TERM": "Ṣar‘ Raḥimī",
+    "Short_definition": "epilepsy due to the involvement of uterus",
+    "Long_definition": "Ṣar‘ (epilepsy) due to the involvement of uterus."
+  },
+  {
+    "Sr No.": "75",
+    "NAMC_ID": "74",
+    "NAMC_CODE": "A-28.9",
+    "Arabic_term": "صرع خببي",
+    "NAMC_TERM": "Ṣar‘ Khababī",
+    "Short_definition": "Procursive epilepsy",
+    "Long_definition": "In this type of Ṣar‘ (epilepsy) patient runs fast before the episode of convulsion."
+  },
+  {
+    "Sr No.": "76",
+    "NAMC_ID": "75",
+    "NAMC_CODE": "A-28.10",
+    "Arabic_term": "صرع خفيف",
+    "NAMC_TERM": "Ṣar‘ Khafīf",
+    "Short_definition": "Petit mal",
+    "Long_definition": "In this type of Ṣar‘ (epilepsy) intensity of convulsions is mild. This is usually accompanied with tinnitus, congestion and tension but there is no heaviness of head."
+  },
+  {
+    "Sr No.": "77",
+    "NAMC_ID": "76",
+    "NAMC_CODE": "A-28.11",
+    "Arabic_term": "صرع شديد",
+    "NAMC_TERM": "Ṣar‘ Shadīd",
+    "Short_definition": "Grand mal",
+    "Long_definition": "In this type of Ṣar‘ (epilepsy) intensity of convulsions is severe."
+  },
+  {
+    "Sr No.": "78",
+    "NAMC_ID": "77",
+    "NAMC_CODE": "A-28.12",
+    "Arabic_term": "صرع ضربي",
+    "NAMC_TERM": "Ṣar‘ Ḍarbī",
+    "Short_definition": "Traumatic epilepsy",
+    "Long_definition": "A type of Ṣar‘ (epilepsy) that occurs after injury of the head."
+  },
+  {
+    "Sr No.": "79",
+    "NAMC_ID": "78",
+    "NAMC_CODE": "A-28.13",
+    "Arabic_term": "صرع قلبي",
+    "NAMC_TERM": "Ṣar‘ Qalbī",
+    "Short_definition": "epilepsy due to the involvement of heart",
+    "Long_definition": "A type of Ṣar‘ (epilepsy) associated with some cardiac diseases."
+  },
+  {
+    "Sr No.": "80",
+    "NAMC_ID": "79",
+    "NAMC_CODE": "A-28.14",
+    "Arabic_term": "صرع لیلی",
+    "NAMC_TERM": "Ṣar‘ Laylī",
+    "Short_definition": "Nocturnal epilepsy",
+    "Long_definition": "A type of Ṣar‘ (epilepsy) in which episodic convulsions occur at night."
+  },
+  {
+    "Sr No.": "81",
+    "NAMC_ID": "80",
+    "NAMC_CODE": "A-28.15",
+    "Arabic_term": "صرع مراقي",
+    "NAMC_TERM": "Ṣar‘ Marāqī",
+    "Short_definition": "Hypochondriacal neurosis",
+    "Long_definition": "A type of Ṣar‘ (epilepsy) associated with Mālankhūliyā."
+  },
+  {
+    "Sr No.": "82",
+    "NAMC_ID": "81",
+    "NAMC_CODE": "A-28.16",
+    "Arabic_term": "صرع نهاري",
+    "NAMC_TERM": "Ṣar‘ Nahārī",
+    "Short_definition": "Diurnal epilepsy",
+    "Long_definition": "In this type of Ṣar‘ (epilepsy) episodic convulsions occur at daytime."
+  },
+  {
+    "Sr No.": "83",
+    "NAMC_ID": "82",
+    "NAMC_CODE": "A-28.17",
+    "Arabic_term": "صرع شركي معدي",
+    "NAMC_TERM": "Ṣar‘ Shirkī Mi‘dī",
+    "Short_definition": "Secondary epilepsy",
+    "Long_definition": "Ṣar‘ (epilepsy) associated with the abdominal diseases."
+  },
+  {
+    "Sr No.": "84",
+    "NAMC_ID": "83",
+    "NAMC_CODE": "A-28.18",
+    "Arabic_term": "صرع حسي",
+    "NAMC_TERM": "Ṣar‘ Ḥissī",
+    "Short_definition": "epilepsy  due to hypersensitivity of brain",
+    "Long_definition": "Ṣar‘ (epilepsy) due to the increased sensitivity of the brain."
+  },
+  {
+    "Sr No.": "85",
+    "NAMC_ID": "84",
+    "NAMC_CODE": "A-29",
+    "Arabic_term": "سكتہ",
+    "NAMC_TERM": "Sakta",
+    "Short_definition": "Apoplexy",
+    "Long_definition": "A condition that occurs when there is a complete obstruction of the ventricles of the brain and channels of oxygen. In this condition the motor and sensory functions of the body stop but the respiratory and circulatory functions remain active. Patient remains stationary."
+  },
+  {
+    "Sr No.": "86",
+    "NAMC_ID": "85",
+    "NAMC_CODE": "A-29.1",
+    "Arabic_term": "سكتہ دمويہ",
+    "NAMC_TERM": "Sakta Damwiyya",
+    "Short_definition": "Sanguineous apoplexy",
+    "Long_definition": "Congestion of blood in the brain leads to this type of Sakta (apoplexy). In this type, patient’s eyes and face become red and vessels are congested."
+  },
+  {
+    "Sr No.": "87",
+    "NAMC_ID": "86",
+    "NAMC_CODE": "A-29.2",
+    "Arabic_term": "سكتہ بلغميہ",
+    "NAMC_TERM": "Sakta Balghamiyya",
+    "Short_definition": "Phlegmatic apoplexy",
+    "Long_definition": "A type of apoplexy that occurs due to Sudda Balghamī (phlegmatic obstruction) in the brain. In this condition patient develops palor, flaccid muscles and there is discharge from nose and mouth."
+  },
+  {
+    "Sr No.": "88",
+    "NAMC_ID": "87",
+    "NAMC_CODE": "A-29.3",
+    "Arabic_term": "سكتہ سوداويہ",
+    "NAMC_TERM": "Sakta Sawdāwiyya",
+    "Short_definition": "Melancholic apoplexy",
+    "Long_definition": "A type of apoplexy that occurs due to accumulation of Sawdā’ (black bile) in the brain."
+  },
+  {
+    "Sr No.": "89",
+    "NAMC_ID": "88",
+    "NAMC_CODE": "A-29.4",
+    "Arabic_term": "سكتہ احتقانيہ",
+    "NAMC_TERM": "Sakta Iḥtiqāniyya",
+    "Short_definition": "Congestive apoplexy",
+    "Long_definition": "A type of apoplexy in which there is engorgement of blood vessels of brain but exudation does not occur."
+  },
+  {
+    "Sr No.": "90",
+    "NAMC_ID": "89",
+    "NAMC_CODE": "A-29.5",
+    "Arabic_term": "سكتہ جلديہ",
+    "NAMC_TERM": "Sakta Jildiyya",
+    "Short_definition": "Cutaneous apoplexy",
+    "Long_definition": "An apparent form of Sakta (apoplexy) in which there is accumulation of exudates beneath the skin."
+  },
+  {
+    "Sr No.": "91",
+    "NAMC_ID": "90",
+    "NAMC_CODE": "A-29.6",
+    "Arabic_term": "سكتہ رئويہ",
+    "NAMC_TERM": "Sakta Ri’wiyya",
+    "Short_definition": "Pulmonary apoplexy",
+    "Long_definition": "When Sakta (apoplexy) occurs due to the haemorrhage of the vessels of lungs. This causes congestion of the lungs."
+  },
+  {
+    "Sr No.": "92",
+    "NAMC_ID": "91",
+    "NAMC_CODE": "A-29.7",
+    "Arabic_term": "سكتہ سديہ",
+    "NAMC_TERM": "Sakta Suddiyya",
+    "Short_definition": "Thrombotic apoplexy",
+    "Long_definition": "When Sakta (apoplexy) occurs due to the obstruction in the arteries of brain."
+  },
+  {
+    "Sr No.": "93",
+    "NAMC_ID": "92",
+    "NAMC_CODE": "A-29.8",
+    "Arabic_term": "سكتہ ضربيہ",
+    "NAMC_TERM": "Sakta Ḍarbiyya",
+    "Short_definition": "Traumatic apoplexy",
+    "Long_definition": "When Sakta (apoplexy) occurs due to injury of head."
+  },
+  {
+    "Sr No.": "94",
+    "NAMC_ID": "93",
+    "NAMC_CODE": "A-29.9",
+    "Arabic_term": "سكتہ مولوديہ",
+    "NAMC_TERM": "Sakta Mawlūdiyya",
+    "Short_definition": "Neonatal apoplexy",
+    "Long_definition": "When Sakta (apoplexy) occurs in newborns."
+  },
+  {
+    "Sr No.": "95",
+    "NAMC_ID": "94",
+    "NAMC_CODE": "A-30",
+    "Arabic_term": "جمود/ شخوص/ آخذة/ مدركة/ قاطوخص",
+    "NAMC_TERM": "Jumūd/ Shukhūṣ/ Ākhidha/Mudrika/ Qāṭūkhaṣ",
+    "Short_definition": "Catalepsy",
+    "Long_definition": "A condition that occurs due to the accumulation of Sawdā’ (black bile) in hind brain. Due to this all the sensory functions of the brain stop and patient remains stationary in his position."
+  },
+  {
+    "Sr No.": "96",
+    "NAMC_ID": "95",
+    "NAMC_CODE": "A-31",
+    "Arabic_term": "استرخاء",
+    "NAMC_TERM": "Istirkhā’",
+    "Short_definition": "Atony/Flaccidity",
+    "Long_definition": "A condition where muscles of an organ or the whole body become flaccid and are not able to perform function."
+  },
+  {
+    "Sr No.": "97",
+    "NAMC_ID": "96",
+    "NAMC_CODE": "A-32",
+    "Arabic_term": "فالج",
+    "NAMC_TERM": "Fālij",
+    "Short_definition": "Hemiplegia",
+    "Long_definition": "Paralytic conditions where muscles of half body (longitudinally) on either side stop functioning except the head."
+  },
+  {
+    "Sr No.": "98",
+    "NAMC_ID": "97",
+    "NAMC_CODE": "A-32.1",
+    "Arabic_term": "فالج و بائي",
+    "NAMC_TERM": "Fālij Wabā’ī",
+    "Short_definition": "paralysis due to putrefied air",
+    "Long_definition": "Fālij (paralysis), that spreads in the form of epidemic in a certain area because of polluted air. This occurs mostly due to the involvement of heart. Patient suffering from this disease has bad breath, red eyes and confused state. This is usually accompanied with vomiting having blackish green vomitus and sometimes it leads to sudden death within hours to three days."
+  },
+  {
+    "Sr No.": "99",
+    "NAMC_ID": "98",
+    "NAMC_CODE": "A-33",
+    "Arabic_term": "تشنج",
+    "NAMC_TERM": "Tashannuj",
+    "Short_definition": "Cramp/Convulsion/Spasm",
+    "Long_definition": "A condition in which muscles contract towards their origin. It is a state of muscular spasm."
+  },
+  {
+    "Sr No.": "100",
+    "NAMC_ID": "99",
+    "NAMC_CODE": "A-33.1",
+    "Arabic_term": "تشنج مادي/ تشنج رطب/ تشنج امتلائي",
+    "NAMC_TERM": "Tashannuj Māddī/ Tashannuj Raṭb/ Tashannuj Imtilā’ī",
+    "Short_definition": "Repletive spasm",
+    "Long_definition": "A type of spasm that occurs due to the involvement of Mādda (organic matter). It occurs mostly in children."
+  },
+  {
+    "Sr No.": "101",
+    "NAMC_ID": "100",
+    "NAMC_CODE": "A-33.2",
+    "Arabic_term": "تشنج يبسي/ تشنج استفراغي",
+    "NAMC_TERM": "Tashannuj Yubsī/ Tashannuj Istifrāghī",
+    "Short_definition": "Dry spasm",
+    "Long_definition": "A type of spasm that occurs due to the predominance of Yubūsat (dryness) in muscles. Sometimes an intense dryness occurs by generalized evacuation of fluid from the body or by the use of some drugs which produce dryness in the body."
+  },
+  {
+    "Sr No.": "102",
+    "NAMC_ID": "101",
+    "NAMC_CODE": "A-33.3",
+    "Arabic_term": "تشنج ايذائي",
+    "NAMC_TERM": "Tashannuj Īdhā’ī",
+    "Short_definition": "muscular spasm due to any irritant",
+    "Long_definition": "A type of spasm that occurs in order to remove an injurious substance from the muscles whether it is an irritant humour or coldness."
+  },
+  {
+    "Sr No.": "103",
+    "NAMC_ID": "102",
+    "NAMC_CODE": "A-33.4",
+    "Arabic_term": "تشنج الاطفال",
+    "NAMC_TERM": "Tashannuj al-Aṭfāl",
+    "Short_definition": "Infantile spasm",
+    "Long_definition": "A type of spasm mostly affecting children. It usually occurs because of high fever, constipation, insomnia and crying."
+  },
+  {
+    "Sr No.": "104",
+    "NAMC_ID": "103",
+    "NAMC_CODE": "A-33.5",
+    "Arabic_term": "تشنج النفساء",
+    "NAMC_TERM": "Tashannuj al-Nufsā’",
+    "Short_definition": "Post partum spasm",
+    "Long_definition": "The spasm of muscles occurring in the body of women in the post partum period."
+  },
+  {
+    "Sr No.": "105",
+    "NAMC_ID": "104",
+    "NAMC_CODE": "A-33.6",
+    "Arabic_term": "تشنج وجهي",
+    "NAMC_TERM": "Tashannuj Wajhī",
+    "Short_definition": "Facial spasm",
+    "Long_definition": "The spasm of facial muscles."
+  },
+  {
+    "Sr No.": "106",
+    "NAMC_ID": "105",
+    "NAMC_CODE": "A-34",
+    "Arabic_term": "ضعف الدماغ",
+    "NAMC_TERM": "Ḍu‘f al-Dimāgh",
+    "Short_definition": "Cerebrasthenia",
+    "Long_definition": "It is the weakness of brain. In this condition the blood supply to whole brain or a part of brain is interrupted and that part or the whole brain does not get sufficient supply of blood leading to the disturbance in different faculties of brain. This condition can also be due to impaired temperament of brain, congenital abnormality of brain, increased Istifrāgh (evacuation) of the body by any method."
+  },
+  {
+    "Sr No.": "107",
+    "NAMC_ID": "106",
+    "NAMC_CODE": "A-35",
+    "Arabic_term": "ذكاو ۃ الحس",
+    "NAMC_TERM": "Dhakāwa al-Ḥiss",
+    "Short_definition": "Hyperaesthesia of brain",
+    "Long_definition": "A condition of increased sensitivity of brain which leads to headache and epilepsy."
+  },
+  {
+    "Sr No.": "108",
+    "NAMC_ID": "107",
+    "NAMC_CODE": "A-36",
+    "Arabic_term": "صداع",
+    "NAMC_TERM": "Ṣudā‘",
+    "Short_definition": "Cephalagia/Headache",
+    "Long_definition": "Pain felt in the head which is divided into many types according to cause."
+  },
+  {
+    "Sr No.": "109",
+    "NAMC_ID": "108",
+    "NAMC_CODE": "A-36.1",
+    "Arabic_term": "صداع حار",
+    "NAMC_TERM": "Ṣudā‘ Ḥārr",
+    "Short_definition": "Headache due to excessive heat",
+    "Long_definition": "Headache on exposure to hot environment. This headache does not involve Mādda (organic matter) or any pathological change inside the body."
+  },
+  {
+    "Sr No.": "110",
+    "NAMC_ID": "109",
+    "NAMC_CODE": "A-36.2",
+    "Arabic_term": "صداع بارد",
+    "NAMC_TERM": "Ṣudā‘ Bārid",
+    "Short_definition": "Headache due to excessive cold",
+    "Long_definition": "Headache on exposure to cold environment without involvement of Mādda (organic matter)."
+  },
+  {
+    "Sr No.": "111",
+    "NAMC_ID": "110",
+    "NAMC_CODE": "A-36.3",
+    "Arabic_term": "صداع دموي",
+    "NAMC_TERM": "Ṣudā‘ Damawī",
+    "Short_definition": "Congestive headache",
+    "Long_definition": "Headache due to predominance of Dam (blood/sanguine)."
+  },
+  {
+    "Sr No.": "112",
+    "NAMC_ID": "111",
+    "NAMC_CODE": "A-36.4",
+    "Arabic_term": "صداع بلغمي",
+    "NAMC_TERM": "Ṣudā‘ Balghamī",
+    "Short_definition": "Phlegmatic headache",
+    "Long_definition": "Headache due to predominance of Balgham (phlegm)."
+  },
+  {
+    "Sr No.": "113",
+    "NAMC_ID": "112",
+    "NAMC_CODE": "A-36.5",
+    "Arabic_term": "صداع صفراوي",
+    "NAMC_TERM": "Ṣudā‘ Ṣafrāwī",
+    "Short_definition": "Bilious headache",
+    "Long_definition": "Headache due to predominance of Ṣafrā’ (yellow bile)."
+  },
+  {
+    "Sr No.": "114",
+    "NAMC_ID": "113",
+    "NAMC_CODE": "A-36.6",
+    "Arabic_term": "صداع سوداوي",
+    "NAMC_TERM": "Ṣudā‘ Sawdāwī",
+    "Short_definition": "Melancholic headache",
+    "Long_definition": "Headache due to predominance of Sawdā’ (black bile)."
+  },
+  {
+    "Sr No.": "115",
+    "NAMC_ID": "114",
+    "NAMC_CODE": "A-36.7",
+    "Arabic_term": "صداع ريحي داخلي",
+    "NAMC_TERM": "Ṣudā‘ Rīḥī Dākhilī",
+    "Short_definition": "headache due to internal gases",
+    "Long_definition": "Headache due to the accumulation of gases in the brain that are produced in the body."
+  },
+  {
+    "Sr No.": "116",
+    "NAMC_ID": "115",
+    "NAMC_CODE": "A-36.8",
+    "Arabic_term": "صداع ريحي خارجي",
+    "NAMC_TERM": "Ṣudā‘ Rīḥī Khārijī",
+    "Short_definition": "headache due to external gases",
+    "Long_definition": "Headache due to accumulation of gases in the brain from outside the body."
+  },
+  {
+    "Sr No.": "117",
+    "NAMC_ID": "116",
+    "NAMC_CODE": "A-36.9",
+    "Arabic_term": "صداع بخاري داخلي",
+    "NAMC_TERM": "Ṣudā‘ Bukhārī Dākhilī",
+    "Short_definition": "headache due to internal vapours",
+    "Long_definition": "Headache due to excessive production of gases inside the brain."
+  },
+  {
+    "Sr No.": "118",
+    "NAMC_ID": "117",
+    "NAMC_CODE": "A-36.10",
+    "Arabic_term": "صداع بخاري خارجي",
+    "NAMC_TERM": "Ṣudā‘ Bukhārī Khārijī",
+    "Short_definition": "headache due to external vapours",
+    "Long_definition": "Headache due to excessive production of gases outside the brain."
+  },
+  {
+    "Sr No.": "119",
+    "NAMC_ID": "118",
+    "NAMC_CODE": "A-36.11",
+    "Arabic_term": "صداع سدي",
+    "NAMC_TERM": "Ṣudā‘ Suddī",
+    "Short_definition": "Embolic headache",
+    "Long_definition": "Headache due to Sudda (obstruction). The obstruction can occur either in the blood vessels or meningeal vessels or brain tissues."
+  },
+  {
+    "Sr No.": "120",
+    "NAMC_ID": "119",
+    "NAMC_CODE": "A-36.12",
+    "Arabic_term": "صداع ورمي",
+    "NAMC_TERM": "Ṣudā‘ Waramī",
+    "Short_definition": "Inflammatory headache",
+    "Long_definition": "Headache due to Waram (inflammation) of brain."
+  },
+  {
+    "Sr No.": "121",
+    "NAMC_ID": "120",
+    "NAMC_CODE": "A-36.13",
+    "Arabic_term": "صداع ضرباني",
+    "NAMC_TERM": "Ṣudā‘ Ḍarabānī",
+    "Short_definition": "Throbbing headache",
+    "Long_definition": "Headache due to increased pulsation of arteries in the brain."
+  },
+  {
+    "Sr No.": "122",
+    "NAMC_ID": "121",
+    "NAMC_CODE": "A-36.14",
+    "Arabic_term": "صداع ضعف دماغي",
+    "NAMC_TERM": "Ṣudā‘ Ḍu‘f Dimāghī",
+    "Short_definition": "Headache due to weakness of brain",
+    "Long_definition": "Headache due to weakness of brain."
+  },
+  {
+    "Sr No.": "123",
+    "NAMC_ID": "122",
+    "NAMC_CODE": "A-36.15",
+    "Arabic_term": "صداع حسي",
+    "NAMC_TERM": "Ṣudā‘Ḥissī",
+    "Short_definition": "Headache due to hyperaesthesia",
+    "Long_definition": "Headache due to the increased sensation of brain."
+  },
+  {
+    "Sr No.": "124",
+    "NAMC_ID": "123",
+    "NAMC_CODE": "A-36.16",
+    "Arabic_term": "صداع يبسي",
+    "NAMC_TERM": "Ṣudā‘ Yubsī",
+    "Short_definition": "Dry headache",
+    "Long_definition": "Headache due to the predominance of Yubūsat (dryness) in the brain."
+  },
+  {
+    "Sr No.": "125",
+    "NAMC_ID": "124",
+    "NAMC_CODE": "A-36.17",
+    "Arabic_term": "صداع جماعي",
+    "NAMC_TERM": "Ṣudā‘ Jimā‘ī",
+    "Short_definition": "Copulative headache",
+    "Long_definition": "Headache due to excessive intercourse."
+  },
+  {
+    "Sr No.": "126",
+    "NAMC_ID": "125",
+    "NAMC_CODE": "A-36.18",
+    "Arabic_term": "صداع خماري",
+    "NAMC_TERM": "Ṣudā‘ Khumārī",
+    "Short_definition": "Alcoholic headache",
+    "Long_definition": "Headache due to intake of alcohol."
+  },
+  {
+    "Sr No.": "127",
+    "NAMC_ID": "126",
+    "NAMC_CODE": "A-36.19",
+    "Arabic_term": "صداع شمي",
+    "NAMC_TERM": "Ṣudā‘ Shammī",
+    "Short_definition": "headache due to smell",
+    "Long_definition": "Headache due to inhalation of pungent odour or strong smells."
+  },
+  {
+    "Sr No.": "128",
+    "NAMC_ID": "127",
+    "NAMC_CODE": "A-36.20",
+    "Arabic_term": "صداع ضربي/ صداع تفرق اتصالي",
+    "NAMC_TERM": "Ṣudā‘ Ḍarbī/ Ṣudā‘ Tafarruq-i-Ittiṣālī",
+    "Short_definition": "Traumatic headache",
+    "Long_definition": "Headache due to traumatic injury of head."
+  },
+  {
+    "Sr No.": "129",
+    "NAMC_ID": "128",
+    "NAMC_CODE": "A-36.21",
+    "Arabic_term": "صداع تزعزعي",
+    "NAMC_TERM": "Ṣudā‘ Taza‘zu‘ī",
+    "Short_definition": "Concussional headache",
+    "Long_definition": "Headache due to concussion of brain."
+  },
+  {
+    "Sr No.": "130",
+    "NAMC_ID": "129",
+    "NAMC_CODE": "A-36.22",
+    "Arabic_term": "صداع نومي",
+    "NAMC_TERM": "Ṣudā‘ Nawmī",
+    "Short_definition": "Somnial headache",
+    "Long_definition": "Headache due to excessive sleep."
+  },
+  {
+    "Sr No.": "131",
+    "NAMC_ID": "130",
+    "NAMC_CODE": "A-36.23",
+    "Arabic_term": "صداع دودي",
+    "NAMC_TERM": "Ṣudā‘ Dūdī",
+    "Short_definition": "headache due to worm",
+    "Long_definition": "Headache due to the presence of worms in the forebrain."
+  },
+  {
+    "Sr No.": "132",
+    "NAMC_ID": "131",
+    "NAMC_CODE": "A-36.24",
+    "Arabic_term": "صداع شركي",
+    "NAMC_TERM": "Ṣudā‘ Shirkī",
+    "Short_definition": "Referred headache",
+    "Long_definition": "Headache due to involvement of some other disease in the body."
+  },
+  {
+    "Sr No.": "133",
+    "NAMC_ID": "132",
+    "NAMC_CODE": "A-36.25",
+    "Arabic_term": "صداع شركي معدي",
+    "NAMC_TERM": "Ṣudā‘ Shirkī Mi‘dī",
+    "Short_definition": "Referred headache due to the involvement of the stomach",
+    "Long_definition": "Headache due to stomach diseases."
+  },
+  {
+    "Sr No.": "134",
+    "NAMC_ID": "133",
+    "NAMC_CODE": "A-36.26",
+    "Arabic_term": "صداع شركي كبدي",
+    "NAMC_TERM": "Ṣudā‘ Shirkī Kabidī",
+    "Short_definition": "Referred headache due to the involvement of the liver",
+    "Long_definition": "Headache due to liver diseases."
+  },
+  {
+    "Sr No.": "135",
+    "NAMC_ID": "134",
+    "NAMC_CODE": "A-36.27",
+    "Arabic_term": "صداع مراقي",
+    "NAMC_TERM": "Ṣudā‘ Marāqī",
+    "Short_definition": "Referred Headache due to the involvement of the peritoneum",
+    "Long_definition": "Headache due to involvement of peritoneum."
+  },
+  {
+    "Sr No.": "136",
+    "NAMC_ID": "135",
+    "NAMC_CODE": "A-36.28",
+    "Arabic_term": "صداع نزلي",
+    "NAMC_TERM": "Ṣudā‘ Nazlī",
+    "Short_definition": "Catarrhal headache",
+    "Long_definition": "Headache due to catarrh."
+  },
+  {
+    "Sr No.": "137",
+    "NAMC_ID": "136",
+    "NAMC_CODE": "A-36.29",
+    "Arabic_term": "صداع عرضي",
+    "NAMC_TERM": "Ṣudā‘ ‘Arḍī",
+    "Short_definition": "Secondary headache",
+    "Long_definition": "Symptomatic headache which is produced as a symptom of other diseases e.g. fever."
+  },
+  {
+    "Sr No.": "138",
+    "NAMC_ID": "137",
+    "NAMC_CODE": "A-36.30",
+    "Arabic_term": "صداع بحراني",
+    "NAMC_TERM": "Ṣudā‘ Buḥrānī",
+    "Short_definition": "Headache during the crisis of disease",
+    "Long_definition": "Headache in the crisis/critical stage of diseases."
+  },
+  {
+    "Sr No.": "139",
+    "NAMC_ID": "138",
+    "NAMC_CODE": "A-37",
+    "Arabic_term": "تمدد",
+    "NAMC_TERM": "Tamaddud",
+    "Short_definition": "straightening of organ",
+    "Long_definition": "A type of tension occurring at both ends of the muscles causing maximum stretching of the muscles."
+  },
+  {
+    "Sr No.": "140",
+    "NAMC_ID": "139",
+    "NAMC_CODE": "A-38",
+    "Arabic_term": "كزاز",
+    "NAMC_TERM": "Kuzāz",
+    "Short_definition": "Tetanus",
+    "Long_definition": "A type of tension occurring in the muscles of cervical and thoracic vertebrae, making them elongated."
+  },
+  {
+    "Sr No.": "141",
+    "NAMC_ID": "140",
+    "NAMC_CODE": "A-38.1",
+    "Arabic_term": "كزاز قدامي",
+    "NAMC_TERM": "Kuzāz Quddāmī",
+    "Short_definition": "Emprosthotonus",
+    "Long_definition": "Tension of the anterior muscles of cervical and thoracic vertebrae."
+  },
+  {
+    "Sr No.": "142",
+    "NAMC_ID": "141",
+    "NAMC_CODE": "A-38.2",
+    "Arabic_term": "كزاز خلفي",
+    "NAMC_TERM": "Kuzāz Khalfī",
+    "Short_definition": "Ophisthotonus",
+    "Long_definition": "Tension of the posterior muscles of cervical and thoracic vertebrae."
+  },
+  {
+    "Sr No.": "143",
+    "NAMC_ID": "142",
+    "NAMC_CODE": "A-38.3",
+    "Arabic_term": "كزاز مطلق",
+    "NAMC_TERM": "Kuzāz Muṭlaq",
+    "Short_definition": "Generalized spasm",
+    "Long_definition": "Tension of the whole muscles of the body."
+  },
+  {
+    "Sr No.": "144",
+    "NAMC_ID": "143",
+    "NAMC_CODE": "A-38.4",
+    "Arabic_term": "كزاز جنبي",
+    "NAMC_TERM": "Kuzāz Janbī",
+    "Short_definition": "Pleurothotonus",
+    "Long_definition": "Tension of muscles of one side of the body."
+  },
+  {
+    "Sr No.": "145",
+    "NAMC_ID": "144",
+    "NAMC_CODE": "A-38.5",
+    "Arabic_term": "كزاز ذاتي",
+    "NAMC_TERM": "Kuzāz Dhātī",
+    "Short_definition": "Cold induced muscle contraction",
+    "Long_definition": "Kuzāz that occurs due to exposure of cold."
+  },
+  {
+    "Sr No.": "146",
+    "NAMC_ID": "145",
+    "NAMC_CODE": "A-38.6",
+    "Arabic_term": "كزاز صبياني",
+    "NAMC_TERM": "Kuzāz Ṣibyānī",
+    "Short_definition": "Tetanus neonatarum",
+    "Long_definition": "Tetanus that occurs in new born due to the wound of umbilical cord."
+  },
+  {
+    "Sr No.": "147",
+    "NAMC_ID": "146",
+    "NAMC_CODE": "A-38.7",
+    "Arabic_term": "كزاز ضربي/ كزاز جرحي",
+    "NAMC_TERM": "Kuzāz Ḍarbī/ Kuzāz Juruḥī",
+    "Short_definition": "Traumatic tetanus",
+    "Long_definition": "Tetanus that occurs due to injury or wound."
+  },
+  {
+    "Sr No.": "148",
+    "NAMC_ID": "147",
+    "NAMC_CODE": "A-39",
+    "Arabic_term": "لقوه",
+    "NAMC_TERM": "Laqwa",
+    "Short_definition": "Facial palsy",
+    "Long_definition": "A disease of the facial muscles in which face is deviated to either side. In this condition patient cannot close his eyes on the affected side and lips, completely. Saliva continues to dribble from the angles of the mouth. When the patient blows, air comes out from one side of the mouth. When this disease is bilateral there is no deviation of face but lips and eyes do not close completely."
+  },
+  {
+    "Sr No.": "149",
+    "NAMC_ID": "148",
+    "NAMC_CODE": "A-39.1",
+    "Arabic_term": "لقوه استرخائي",
+    "NAMC_TERM": "Laqwa Istirkhā’ī",
+    "Short_definition": "deviation of one side of face due to flaccidity of muscles",
+    "Long_definition": "Deviation of face due to flaccidity of the facial muscles."
+  },
+  {
+    "Sr No.": "150",
+    "NAMC_ID": "149",
+    "NAMC_CODE": "A-39.2",
+    "Arabic_term": "لقوه تشنجي",
+    "NAMC_TERM": "Laqwa Tashannujī",
+    "Short_definition": "deviation of one side of face due to spasm of muscles",
+    "Long_definition": "Deviation of face due to spasm of the facial muscles."
+  },
+  {
+    "Sr No.": "151",
+    "NAMC_ID": "150",
+    "NAMC_CODE": "A-40",
+    "Arabic_term": "رعشہ",
+    "NAMC_TERM": "Ra‘sha",
+    "Short_definition": "Tremor",
+    "Long_definition": "Shivering of the organs of the body due to the weakness or defect in motor system. It is a mixture of voluntary and involuntary movements of the body."
+  },
+  {
+    "Sr No.": "152",
+    "NAMC_ID": "151",
+    "NAMC_CODE": "A-40.1",
+    "Arabic_term": "رعشہ بارد",
+    "NAMC_TERM": "Ra‘sha Bārid",
+    "Short_definition": "tremor due to cold morbid temperament",
+    "Long_definition": "A type of Ra‘sha caused by simple cold morbid temperament of the organ."
+  },
+  {
+    "Sr No.": "153",
+    "NAMC_ID": "152",
+    "NAMC_CODE": "A-40.2",
+    "Arabic_term": "رعشہ شرابيہ",
+    "NAMC_TERM": "Ra‘sha Sharābiyya",
+    "Short_definition": "Alcoholic tremors",
+    "Long_definition": "Shivering of the organs due to increased/habitual intake of alcohol."
+  },
+  {
+    "Sr No.": "154",
+    "NAMC_ID": "153",
+    "NAMC_CODE": "A-41",
+    "Arabic_term": "ارتعاد",
+    "NAMC_TERM": "Irti‘ād",
+    "Short_definition": "Twitching of muscles",
+    "Long_definition": "Trembling of muscles. It occurs due to the predominance of Ruṭūbat (moistness) in the brain."
+  },
+  {
+    "Sr No.": "155",
+    "NAMC_ID": "154",
+    "NAMC_CODE": "A-42",
+    "Arabic_term": "خدر",
+    "NAMC_TERM": "Khadar",
+    "Short_definition": "Numbness",
+    "Long_definition": "The complete/partial loss of sensation of any organ of the body. According to causes it can be of four types i. e. Balghamī (phlegmatic), Damawī (sanguineous), Sawdāwī (melancholic) and Ṣafrāwī (bilious)."
+  },
+  {
+    "Sr No.": "156",
+    "NAMC_ID": "155",
+    "NAMC_CODE": "A-43",
+    "Arabic_term": "اختلاج",
+    "NAMC_TERM": "Ikhtilāj",
+    "Short_definition": "Fasciculation",
+    "Long_definition": "Involuntary movement of the muscles of organs e.g. eyelids, heart, stomach and spleen that can be felt on the skin also. According to aetiology it is of two types: Ikhtilāj Bārid (chronic) and Ikhtilāj Ḥārr (acute)."
+  },
+  {
+    "Sr No.": "157",
+    "NAMC_ID": "156",
+    "NAMC_CODE": "B",
+    "Arabic_term": "امراض عین",
+    "NAMC_TERM": "Amrāḍ-i-‘Ayn",
+    "Short_definition": "Diseases of Eye",
+    "Long_definition": ""
+  },
+  {
+    "Sr No.": "158",
+    "NAMC_ID": "157",
+    "NAMC_CODE": "B-1",
+    "Arabic_term": "رمد/ آشوب چشم",
+    "NAMC_TERM": "Ramad/ Āshob-i-Chashm",
+    "Short_definition": "Acute conjunctivitis",
+    "Long_definition": "It is considered as an inflammation of conjunctiva of eye which is Ḥārr (acute) in nature. Sometimes only the pain of eyes is known as Ramad. In this condition eyelids become swollen, eyes become red with continuous watering."
+  },
+  {
+    "Sr No.": "159",
+    "NAMC_ID": "158",
+    "NAMC_CODE": "B-1.1",
+    "Arabic_term": "رمد دموي",
+    "NAMC_TERM": "Ramad Damawī",
+    "Short_definition": "Sanguineous conjunctivitis",
+    "Long_definition": "It is a type of Ramad caused by the predominance of Dam (sanguine) in the surrounding areas of brain and its infiltration into eyes. It is characterized by redness of eyes, swelling, engorgement of vessels of eyes, temporal region of face, pulsation at temporal region, decreased lacrimation and purulent discharge."
+  },
+  {
+    "Sr No.": "160",
+    "NAMC_ID": "159",
+    "NAMC_CODE": "B-1.2",
+    "Arabic_term": "رمد صفراوی",
+    "NAMC_TERM": "Ramad Ṣafrāwī",
+    "Short_definition": "Bilious conjunctivitis",
+    "Long_definition": "A type of Ramad caused by the predominance of Ṣafrā’ (yellow bile) and its infiltration into the area surrounding the eye. It is characterized by severe pain from the beginning, pricking sensation, excessive lacrimation but comparatively less redness in the eyes."
+  },
+  {
+    "Sr No.": "161",
+    "NAMC_ID": "160",
+    "NAMC_CODE": "B-1.3",
+    "Arabic_term": "رمد بلغمی",
+    "NAMC_TERM": "Ramad Balghamī",
+    "Short_definition": "Phlegmatic conjunctivitis",
+    "Long_definition": "A type of Ramad caused by excessive intake of milk and other diets that produce phlegm. It is also associated with extreme cold condition and catarrh. In this condition, eyes appear to be wet with little redness, pain and discharge."
+  },
+  {
+    "Sr No.": "162",
+    "NAMC_ID": "161",
+    "NAMC_CODE": "B-1.4",
+    "Arabic_term": "رمد سوداوی",
+    "NAMC_TERM": "Ramad Sawdāwī",
+    "Short_definition": "Melancholic conjunctivitis",
+    "Long_definition": "A type of Ramad caused by dryness of temperament as a result of excessive intake of black bile producing diets. It is characterized by dryness and discoloration of eyes with decreased lacrimation and less stickiness of eyes. It is a long lasting condition."
+  },
+  {
+    "Sr No.": "163",
+    "NAMC_ID": "162",
+    "NAMC_CODE": "B-1.5",
+    "Arabic_term": "رمد ریحی",
+    "NAMC_TERM": "Ramad Rīḥī",
+    "Short_definition": "gaseous conjunctivitis",
+    "Long_definition": "A type of Ramad accompanied with lacrimation and shifting pain. It is caused by accumulation of thick vapours coming from the brain towards conjunctiva. In this condition there is distension and radiation of pain towards the head, eyes and face."
+  },
+  {
+    "Sr No.": "164",
+    "NAMC_ID": "163",
+    "NAMC_CODE": "B-1.6",
+    "Arabic_term": "رمد بثوري/ ودقہ",
+    "NAMC_TERM": "Ramad Buthūrī/ Wadaqa",
+    "Short_definition": "Phlyctenular conjunctivitis",
+    "Long_definition": "Inflammation of conjunctiva which appears as a hard white nodule due to accumulation of phlegm. It resembles fat in its colour but not in consistency. If it is due to accumulation of Dam (blood/sanguine) its colour is red. It is found on inner canthus, outer canthus, below eyelids and around cornea in a beaded manner."
+  },
+  {
+    "Sr No.": "165",
+    "NAMC_ID": "164",
+    "NAMC_CODE": "B-1.7",
+    "Arabic_term": "رمد زهري",
+    "NAMC_TERM": "Ramad Zuhrī",
+    "Short_definition": "Gonococcal conjunctivitis",
+    "Long_definition": "An infectious inflammation of conjunctiva due to gonorrhoea. It is associated with severe pain and redness of eyes."
+  },
+  {
+    "Sr No.": "166",
+    "NAMC_ID": "165",
+    "NAMC_CODE": "B-1.8",
+    "Arabic_term": "رمد ثلجي",
+    "NAMC_TERM": "Ramad Thaljī",
+    "Short_definition": "conjunctivitis due to staring at snow",
+    "Long_definition": "The inflammation of conjunctiva caused by continuous staring at snow."
+  },
+  {
+    "Sr No.": "167",
+    "NAMC_ID": "166",
+    "NAMC_CODE": "B-2",
+    "Arabic_term": "تكدر طبقة الملتحمة",
+    "NAMC_TERM": "Takaddur Ṭabaqa al-Multaḥima",
+    "Short_definition": "Hyperaemia of eye",
+    "Long_definition": "Redness of eye due to sub acute inflammation with moderate symptoms. Redness of the eyes is also mild leading to dirty eyes."
+  },
+  {
+    "Sr No.": "168",
+    "NAMC_ID": "167",
+    "NAMC_CODE": "B-3",
+    "Arabic_term": "سبل",
+    "NAMC_TERM": "Sabal",
+    "Short_definition": "Vascular keratitis/Pannus",
+    "Long_definition": "Its literal meaning is “flowing of tears” which is an essential feature of this disease. It is a type of covering which is caused due to the dilatation of outer vessels of eye and covers the surface of conjunctiva and cornea. On appearance it appears to be a white thin layer."
+  },
+  {
+    "Sr No.": "169",
+    "NAMC_ID": "168",
+    "NAMC_CODE": "B-3.1",
+    "Arabic_term": "سبل رطب",
+    "NAMC_TERM": "Sabal Raṭb",
+    "Short_definition": "moist covering on the surface of conjunctiva",
+    "Long_definition": "A type of vascular keratitis which is characterized by the presence of fluid in the eyelids, itching, pain of the eyes and sneezing."
+  },
+  {
+    "Sr No.": "170",
+    "NAMC_ID": "169",
+    "NAMC_CODE": "B-3.2",
+    "Arabic_term": "سبل يابس",
+    "NAMC_TERM": "Sabal Yābis",
+    "Short_definition": "dry covering on the surface of conjunctiva",
+    "Long_definition": "It is a type of vascular keratitis characterised by the presence of the covering or layer on the surface of conjunctiva and cornea. This condition is usually asymptomatic."
+  },
+  {
+    "Sr No.": "171",
+    "NAMC_ID": "170",
+    "NAMC_CODE": "B-3.3",
+    "Arabic_term": "سبل مستحكم",
+    "NAMC_TERM": "Sabal Mustaḥkam",
+    "Short_definition": "thick covering on the surface of conjunctiva",
+    "Long_definition": "A type of vascular keratitis in which the thick layer covers the cornea completely. The condition is caused by the congestion of vessels with viscous fluids."
+  },
+  {
+    "Sr No.": "172",
+    "NAMC_ID": "171",
+    "NAMC_CODE": "B-4",
+    "Arabic_term": "كمنہ",
+    "NAMC_TERM": "Kumna",
+    "Short_definition": "Amaurosis",
+    "Long_definition": "A condition much similar to Ramad Yābis (dry conjunctivitis) with partial loss of vision. In this condition there is opacity of layers of eyes. They seem to be dirty, reddish and fogging. This is characterized by slow movement of the eye, apparent enlargement of the eye with itching which is relieved only by warm water."
+  },
+  {
+    "Sr No.": "173",
+    "NAMC_ID": "172",
+    "NAMC_CODE": "B-5",
+    "Arabic_term": "انتفاخ",
+    "NAMC_TERM": "Intifākh",
+    "Short_definition": "distension of conjunctiva",
+    "Long_definition": "A chronic inflammation of conjunctiva accompanied with itching."
+  },
+  {
+    "Sr No.": "174",
+    "NAMC_ID": "173",
+    "NAMC_CODE": "B-5.1",
+    "Arabic_term": "انتفاخ ريحي",
+    "NAMC_TERM": "Intifākh Rīḥī",
+    "Short_definition": "gaseous distension of conjunctiva",
+    "Long_definition": "Swelling of eye that appears abruptly and deviates towards the inner canthus. There is some itching before the appearance of swelling. This swelling generally appears in summers and in old persons. It is white in colour similar to phlegmatic swelling."
+  },
+  {
+    "Sr No.": "175",
+    "NAMC_ID": "174",
+    "NAMC_CODE": "B-5.2",
+    "Arabic_term": "انتفاخ بلغمي",
+    "NAMC_TERM": "Intifākh Balghamī",
+    "Short_definition": "phlegmatic distension of conjunctiva",
+    "Long_definition": "The swelling is more viscous than Intifākh Rīḥī and pitting sign remains on the swelling for sometimes."
+  },
+  {
+    "Sr No.": "176",
+    "NAMC_ID": "175",
+    "NAMC_CODE": "B-5.3",
+    "Arabic_term": "انتفاخ مائي",
+    "NAMC_TERM": "Intifākh Mā’ī",
+    "Short_definition": "distension of conjunctiva due to fluid",
+    "Long_definition": "Swelling without any sign of pitting. There is no itching and pain of eye."
+  },
+  {
+    "Sr No.": "177",
+    "NAMC_ID": "176",
+    "NAMC_CODE": "B-5.4",
+    "Arabic_term": "انتفاخ سوداوي",
+    "NAMC_TERM": "Intifākh Sawdāwī",
+    "Short_definition": "melancholic distension of conjunctiva",
+    "Long_definition": "Hard swelling with bluish colouring. It usually occurs after chronic conjunctivitis or small pox. It usually occurs in the whole eye."
+  },
+  {
+    "Sr No.": "178",
+    "NAMC_ID": "177",
+    "NAMC_CODE": "B-6",
+    "Arabic_term": "بياض العين",
+    "NAMC_TERM": "Bayāḍ al-‘Ayn",
+    "Short_definition": "Corneal opacity",
+    "Long_definition": "A disease in which outer surface of cornea becomes white and opaque. This layer or covering is also known as Ghamām, Abr and Saḥāb.When the opacity lies in the cornea it is known as Bayāḍ. This condition occurs in post corneal ulcers, conjunctivitis, and migraine. It may also be caused by regular irritation of cornea leading to its ulcers, trichiasis, trachoma, etc."
+  },
+  {
+    "Sr No.": "179",
+    "NAMC_ID": "178",
+    "NAMC_CODE": "B-7",
+    "Arabic_term": "ظفرہ",
+    "NAMC_TERM": "Ẓafara",
+    "Short_definition": "Pterygium",
+    "Long_definition": "A projection or growth from the inner canthus of eye towards cornea. It is also known as Ẓufra. The projection is muscular, membranous or nervine in nature. It is of four types: 1.Thin like membrane and starts from one side of conjunctiva. It resembles Sabal. 2. Arises from the fat of inner canthus and stops after reaching cornea. 3. Covers the cornea leading to disturbance of vision or complete loss of vision. 4. Rare type which either appears from conjunctiva or sclera."
+  },
+  {
+    "Sr No.": "180",
+    "NAMC_ID": "179",
+    "NAMC_CODE": "B-8",
+    "Arabic_term": "غدة العين",
+    "NAMC_TERM": "Ghudda al-‘Ayn",
+    "Short_definition": "Adenoma of eye",
+    "Long_definition": "A type of glandular tumour which occurs at the inner canthus of eye. This often covers the lacrimal gland duct preventing the passage of tears."
+  },
+  {
+    "Sr No.": "181",
+    "NAMC_ID": "180",
+    "NAMC_CODE": "B-9",
+    "Arabic_term": "قروح العين",
+    "NAMC_TERM": "Qurūḥ al-‘Ayn",
+    "Short_definition": "Ulcers of eye",
+    "Long_definition": "Ulcers may occur anywhere in the eye but detected only when conjunctiva, cornea and iris are involved. These are caused by acute and burnt humours which infiltrate the layers of eyes causing the ulceration therein. These are caused by the trauma with sharp objects, maltreatment of conjunctivitis and small pox."
+  },
+  {
+    "Sr No.": "182",
+    "NAMC_ID": "181",
+    "NAMC_CODE": "B-10",
+    "Arabic_term": "قروح الملتحمة",
+    "NAMC_TERM": "Qurūḥ al-Multaḥima",
+    "Short_definition": "Conjunctival ulcers",
+    "Long_definition": "An eye ulcer characterized by a red spot on conjunctiva or sometimes whole conjunctiva becomes red."
+  },
+  {
+    "Sr No.": "183",
+    "NAMC_ID": "182",
+    "NAMC_CODE": "B-11",
+    "Arabic_term": "قروح العنبية",
+    "NAMC_TERM": "Qurūḥ al-‘Inabiyya",
+    "Short_definition": "ulcers of iris",
+    "Long_definition": "Ulcers of iris which are seen as a red spot behind the cornea in which arteries are prominent. Such ulcers often tear the cornea."
+  },
+  {
+    "Sr No.": "184",
+    "NAMC_ID": "183",
+    "NAMC_CODE": "B-12",
+    "Arabic_term": "قروح القرنية",
+    "NAMC_TERM": "Qurūḥ al-Qarniyya",
+    "Short_definition": "Corneal ulcers",
+    "Long_definition": "Ulcers that present as a white spot in cornea. Corneal ulcers may be superficial and deep. There are four types of superficial ulcers of cornea and three types of deep ulcers."
+  },
+  {
+    "Sr No.": "185",
+    "NAMC_ID": "184",
+    "NAMC_CODE": "B-12.1",
+    "Arabic_term": "قروح القرنية خارجيہ",
+    "NAMC_TERM": "Qurūḥ al-Qarniyya Khārijiyya",
+    "Short_definition": "Superficial ulcers of cornea",
+    "Long_definition": "These are superficial corneal ulcers, and are of four types: 1. Qatlām (Ulcus Serpens): These ulcers appear as cloudy, grey area covering most of the cornea. The cornea becomes lustreless. 2. Saḥāb: This is also cloudy but covers small portion of cornea. It is also known as Qānāliyūn. 3. Iklīl (marginal ulcer): These ulcers are in the shape of crown of king that is why these are known as Iklīl. These ulcers occur at the margins of cornea and extend towards conjunctiva. It is also known as Arkhāniyūn."
+  },
+  {
+    "Sr No.": "186",
+    "NAMC_ID": "185",
+    "NAMC_CODE": "B-12.2",
+    "Arabic_term": "قروح القرنية داخليہ",
+    "NAMC_TERM": "Qurūḥ al-Qarniyya Dākhiliyya",
+    "Short_definition": "Deep corneal ulcers",
+    "Long_definition": "These are deep corneal ulcers and are of three types: 1. Jāwarsiyya: These are the millet shaped ulcers of cornea which is deep with little cicatrisation. These are also known as Luqutūn. 2. Ḥafira: These are deep and wide ulcers of cornea. These are also known as Qūlūma. 3. Iḥtirāqī: These are also deep ulcers with much cicatrisation. These are also known as Abīqūma and Ḥaqīqāwūma."
+  },
+  {
+    "Sr No.": "187",
+    "NAMC_ID": "186",
+    "NAMC_CODE": "B-12.3",
+    "Arabic_term": "قروح القرنية ذات العروق",
+    "NAMC_TERM": "Qurūḥ al-Qarniyya Dhāt al-‘Urūq",
+    "Short_definition": "Ulcers of eye",
+    "Long_definition": "Ulcers appearing in the cornea with spreaded vessels like web. It often occurs in other layers of eyes also."
+  },
+  {
+    "Sr No.": "188",
+    "NAMC_ID": "187",
+    "NAMC_CODE": "B-13",
+    "Arabic_term": "بثور القرنية",
+    "NAMC_TERM": "Buthūr al-Qarniyya",
+    "Short_definition": "corneal eruptions",
+    "Long_definition": "These are the eruptions occurring on the outer, middle and inner layers of cornea. These are caused either by fluids that are less in quantity but bad in quality or vice versa."
+  },
+  {
+    "Sr No.": "189",
+    "NAMC_ID": "188",
+    "NAMC_CODE": "B-14",
+    "Arabic_term": "دبيلة القرنية",
+    "NAMC_TERM": "Dubayla al-Qarniyya",
+    "Short_definition": "corneal abscess",
+    "Long_definition": "It is a suppurative ulcer covering the whole cornea. It is caused by impairment of humour pouring towards the eyes and their putrefaction etc. It is characterized by the presence of a large sized ulcer covering whole of cornea and severe pain."
+  },
+  {
+    "Sr No.": "190",
+    "NAMC_ID": "189",
+    "NAMC_CODE": "B-15",
+    "Arabic_term": "سرطان القرنية",
+    "NAMC_TERM": "Saraṭān al-Qarniyya",
+    "Short_definition": "Corneal cancer",
+    "Long_definition": "It is a type of cancer occupying most of the cornea. It represents itself as the accumulation of thick pus on cornea with redness of vessels surrounding the cornea. It is caused by the infiltration of bad quality black bile along with the inability of cornea to remove that matter. It is characterized by severe pain especially during movement or seeing towards sun or fire, etc."
+  },
+  {
+    "Sr No.": "191",
+    "NAMC_ID": "190",
+    "NAMC_CODE": "B-16",
+    "Arabic_term": "رطوبۃ القرنیۃ",
+    "NAMC_TERM": "Ruṭūba al-Qarniyya",
+    "Short_definition": "cloudy cornea",
+    "Long_definition": "It is a condition of accumulation of infiltrated thick fluids on the cornea. It is characterized by cloudy cornea and diminished vision. Patient’s eyes remain wet and he/she endures continuous nasal discharge."
+  },
+  {
+    "Sr No.": "192",
+    "NAMC_ID": "191",
+    "NAMC_CODE": "B-17",
+    "Arabic_term": "يبس القرنیۃ",
+    "NAMC_TERM": "Yubs al-Qarniyya",
+    "Short_definition": "Dry eye",
+    "Long_definition": "It is the spasm of cornea leading to diminished vision and dry eye."
+  },
+  {
+    "Sr No.": "193",
+    "NAMC_ID": "192",
+    "NAMC_CODE": "B-18",
+    "Arabic_term": "غرب",
+    "NAMC_TERM": "Gharb",
+    "Short_definition": "Chronic dacryocystitis",
+    "Long_definition": "Chronic inflammation of the inner canthus of eye leading to the flow of tears continuously. This is caused by the presence of abscess, pustules, boils in the inner canthus which ruptures to form fistula."
+  },
+  {
+    "Sr No.": "194",
+    "NAMC_ID": "193",
+    "NAMC_CODE": "B-18.1",
+    "Arabic_term": "غرب غیر منفجر",
+    "NAMC_TERM": "Gharb Ghayr Munfajir",
+    "Short_definition": "Lacrimal cyst",
+    "Long_definition": "It is a small abscess like swelling not greater than gram (a grain) and appearing in between the inner canthus and nose. It is caused by the flow of morbid matter on to the site of swelling."
+  },
+  {
+    "Sr No.": "195",
+    "NAMC_ID": "194",
+    "NAMC_CODE": "B-18.2",
+    "Arabic_term": "غرب منفجر",
+    "NAMC_TERM": "Gharb Munfajir",
+    "Short_definition": "Lacrimal abcess",
+    "Long_definition": "It is a depression in the inner canthus of eye filled with pus. It is caused by putrefaction of humour within the inner canthus."
+  },
+  {
+    "Sr No.": "196",
+    "NAMC_ID": "195",
+    "NAMC_CODE": "B-19",
+    "Arabic_term": "خضرة العين",
+    "NAMC_TERM": "Khuḍra al-‘Ayn",
+    "Short_definition": "greenish discoloration of eye",
+    "Long_definition": "Change in the colour of eye due to injury. This change is either due to contusion or sub mucosal haemorrhage of eye."
+  },
+  {
+    "Sr No.": "197",
+    "NAMC_ID": "196",
+    "NAMC_CODE": "B-20",
+    "Arabic_term": "زرقة العين",
+    "NAMC_TERM": "Zurqa al-‘Ayn",
+    "Short_definition": "blue discoloration of eye",
+    "Long_definition": "A condition in which eyes become cyanosed or bluish coloured because of haemorrhage after injury."
+  },
+  {
+    "Sr No.": "198",
+    "NAMC_ID": "197",
+    "NAMC_CODE": "B-21",
+    "Arabic_term": "طرفہ",
+    "NAMC_TERM": "Ṭarfa",
+    "Short_definition": "Ecchymosis of the eyelids",
+    "Long_definition": "A red spot on the palpebral conjunctiva due to rupture of vessels of eye after injury or congestion."
+  },
+  {
+    "Sr No.": "199",
+    "NAMC_ID": "198",
+    "NAMC_CODE": "B-22",
+    "Arabic_term": "قذیٰ في العين",
+    "NAMC_TERM": "Qadhā fi’l ‘Ayn",
+    "Short_definition": "foreign body in eye",
+    "Long_definition": "Foreign body in the eye. It can be dirt, dust, insect, etc. which causes irritation in the eye."
+  },
+  {
+    "Sr No.": "200",
+    "NAMC_ID": "199",
+    "NAMC_CODE": "B-23",
+    "Arabic_term": "مورسرج",
+    "NAMC_TERM": "Morsarj",
+    "Short_definition": "Iridoptosis",
+    "Long_definition": "A disease in which there is prolapse of iris due to rupture of cornea after corneal ulcers. It resembles the head of an ant i.e. why it is given the name of Morsarj that is ant’s head."
+  },
+  {
+    "Sr No.": "201",
+    "NAMC_ID": "200",
+    "NAMC_CODE": "B-23.1",
+    "Arabic_term": "ذبابي",
+    "NAMC_TERM": "Dhubābī",
+    "Short_definition": "Partial anterior staphyloma",
+    "Long_definition": "A type of prolapse of iris in which iris resembles the shape of the head of house fly."
+  },
+  {
+    "Sr No.": "202",
+    "NAMC_ID": "201",
+    "NAMC_CODE": "B-23.2",
+    "Arabic_term": "عنبي",
+    "NAMC_TERM": "‘Inabī",
+    "Short_definition": "Total anterior staphyloma",
+    "Long_definition": "A type of prolapse of iris in which iris resembles the shape of grape."
+  },
+  {
+    "Sr No.": "203",
+    "NAMC_ID": "202",
+    "NAMC_CODE": "B-23.3",
+    "Arabic_term": "تفاحي",
+    "NAMC_TERM": "Tuffāḥī",
+    "Short_definition": "Total prolapse of iris",
+    "Long_definition": "A type of prolapse of iris which resembles the shape of an apple. It is an extended form of prolapse which reaches up to eyelid and cause hindrance in closing the eye."
+  },
+  {
+    "Sr No.": "204",
+    "NAMC_ID": "203",
+    "NAMC_CODE": "B-23.4",
+    "Arabic_term": "مسماري/ فلکی",
+    "NAMC_TERM": "Mismārī/ Falakī",
+    "Short_definition": "iris prolapse similar to flattened head of nail",
+    "Long_definition": "When the Tuffāḥī type of prolapse of iris becomes chronic and gets attached to the ulcerated corneal margins, it is known as Mismārī."
+  },
+  {
+    "Sr No.": "205",
+    "NAMC_ID": "204",
+    "NAMC_CODE": "B-24",
+    "Arabic_term": "انتشار واتساع الثقبة",
+    "NAMC_TERM": "Intishār wa Ittisā‘ al-Thuqba",
+    "Short_definition": "Dilatation of pupil/Mydriasis",
+    "Long_definition": "Most of the Unani physicians regard both the terms as synonymous but Dā’ūd Anṭākī has differentiated these terms by saying that Ittisā‘ or dilatation of pupils is a disease where as Intishār or the blurring of vision is a symptom which is caused by dilatation of pupil. According to the causes Ittisā‘ or dilatation of pupils can be of many types: Waramī (inflammatory), Yubsī (decrease in aqueous humour), Ḍarbī (traumatic), Māddī (organic) and Ruṭūbī (excess of aqueous humour)."
+  },
+  {
+    "Sr No.": "206",
+    "NAMC_ID": "205",
+    "NAMC_CODE": "B-25",
+    "Arabic_term": "ضيق الثقبة",
+    "NAMC_TERM": "Ḍīq al-Thuqba",
+    "Short_definition": "Miosis/ Constriction of pupils",
+    "Long_definition": "Narrowing or constriction of pupils that causes disturbances of vision."
+  },
+  {
+    "Sr No.": "207",
+    "NAMC_ID": "206",
+    "NAMC_CODE": "B-26",
+    "Arabic_term": "نتوء القرنية",
+    "NAMC_TERM": "Nutū’ al-Qarniyya",
+    "Short_definition": "Descemetocoele/Keratocele",
+    "Long_definition": "Protrusion of the anterior part of cornea due to corneal ulcers caused by pneumococci. In this condition only the descement membrane protrudes because of increase in the intra ocular pressure."
+  },
+  {
+    "Sr No.": "208",
+    "NAMC_ID": "207",
+    "NAMC_CODE": "B-27",
+    "Arabic_term": "نزول الماء",
+    "NAMC_TERM": "Nuzūl al-Mā’",
+    "Short_definition": "Cataract",
+    "Long_definition": "Opacity of Ruṭūbat Jalīdiyya (lens) of the eye. In this condition patient initially feels disturbance in vision e.g. polyopia, coloured halos, seeing of objects like fly, hair, etc. It has three stages i.e. immature, mature and hypermature."
+  },
+  {
+    "Sr No.": "209",
+    "NAMC_ID": "208",
+    "NAMC_CODE": "B-27.1",
+    "Arabic_term": "غمامي",
+    "NAMC_TERM": "Ghamāmī",
+    "Short_definition": "immature cataract resembling the blackish cloud",
+    "Long_definition": "A type of immature cataract in which there is cloudy fluid which is immovable."
+  },
+  {
+    "Sr No.": "210",
+    "NAMC_ID": "209",
+    "NAMC_CODE": "B-27.2",
+    "Arabic_term": "ذئبقي",
+    "NAMC_TERM": "Dhi’baqī",
+    "Short_definition": "immature cataract resembling the mercury",
+    "Long_definition": "A type of immature cataract which resembles with that of mercury and appears moving in sunlight."
+  },
+  {
+    "Sr No.": "211",
+    "NAMC_ID": "210",
+    "NAMC_CODE": "B-27.3",
+    "Arabic_term": "جصي",
+    "NAMC_TERM": "Jaṣṣī",
+    "Short_definition": "immature cataract resembling the piece of lime",
+    "Long_definition": "A type of immature cataract which resembles with lime stone."
+  },
+  {
+    "Sr No.": "212",
+    "NAMC_ID": "211",
+    "NAMC_CODE": "B-27.4",
+    "Arabic_term": "آسمانجوني",
+    "NAMC_TERM": "Āsmānjūnī",
+    "Short_definition": "immature cataract resembling the sky colour",
+    "Long_definition": "A type of immature cataract whose colour resembles with that of sky."
+  },
+  {
+    "Sr No.": "213",
+    "NAMC_ID": "212",
+    "NAMC_CODE": "B-27.5",
+    "Arabic_term": "منتشر",
+    "NAMC_TERM": "Muntashir",
+    "Short_definition": "diffuse immature cataract",
+    "Long_definition": "A fluid like immature cataract. The vision of patient gradually increases or decreases."
+  },
+  {
+    "Sr No.": "214",
+    "NAMC_ID": "213",
+    "NAMC_CODE": "B-28",
+    "Arabic_term": "ماء اخضر",
+    "NAMC_TERM": "Mā’ Akhḍar",
+    "Short_definition": "Glaucoma",
+    "Long_definition": "A disease of eye in which there is excessive production of humours and reduction in its absorption. This excess leads to the increase in tension and size of eye ball, gradual decrease in vision, etc. It has four types: Ḥādd (acute), Muzmin (chronic), Nawbatī (episodic) and Thānwī (secondary)."
+  },
+  {
+    "Sr No.": "215",
+    "NAMC_ID": "214",
+    "NAMC_CODE": "B-29",
+    "Arabic_term": "جحوظ العين",
+    "NAMC_TERM": "Juḥūẓ al-‘Ayn",
+    "Short_definition": "Exophthalmos",
+    "Long_definition": "Protrusion of the eyeball."
+  },
+  {
+    "Sr No.": "216",
+    "NAMC_ID": "215",
+    "NAMC_CODE": "B-29.1",
+    "Arabic_term": "جحوظ امتلائي",
+    "NAMC_TERM": "Juḥūẓ Imtilā’ī",
+    "Short_definition": "congestive protrusion of eyeball",
+    "Long_definition": "A type of protrusion of eyeball that is due to the congestion of eye ball with humours."
+  },
+  {
+    "Sr No.": "217",
+    "NAMC_ID": "216",
+    "NAMC_CODE": "B-29.2",
+    "Arabic_term": "جحوظ انضغاطي",
+    "NAMC_TERM": "Juḥūẓ Inḍighāṭī",
+    "Short_definition": "protrusion of eyeball due to compression",
+    "Long_definition": "Protrusion of eyeball due to increased pressure on eye ball as seen in strangulation, vomiting, severe headache, crying, straining for bowels, straining for labour or child birth."
+  },
+  {
+    "Sr No.": "218",
+    "NAMC_ID": "217",
+    "NAMC_CODE": "B-29.3",
+    "Arabic_term": "جحوظ استرخائي",
+    "NAMC_TERM": "Juḥūẓ Istirkhā’ī",
+    "Short_definition": "protrusion of eyeball due to structural loosening",
+    "Long_definition": "Protrusion of eye ball due to paresis of eye muscles and ligaments attached to it."
+  },
+  {
+    "Sr No.": "219",
+    "NAMC_ID": "218",
+    "NAMC_CODE": "B-30",
+    "Arabic_term": "سل العين",
+    "NAMC_TERM": "Sill al-‘Ayn",
+    "Short_definition": "Phthisis bulbi",
+    "Long_definition": "In this condition there is a reduction in humours of eyes because of which different layers of eye and eye as a whole become shrunken. The disease affects mostly older people, but sometimes it affects younger people and children. This is characterized by the adherent eyelids and loss of vision."
+  },
+  {
+    "Sr No.": "220",
+    "NAMC_ID": "219",
+    "NAMC_CODE": "B-31",
+    "Arabic_term": "برص العين",
+    "NAMC_TERM": "Baraṣ al-‘Ayn",
+    "Short_definition": "Vitiligo iridis",
+    "Long_definition": "Whitish discoloration or depigmentation of eyes due to impaired temperament of iris. This impaired temperament is caused by the presence of viscous humours in it."
+  },
+  {
+    "Sr No.": "221",
+    "NAMC_ID": "220",
+    "NAMC_CODE": "B-32",
+    "Arabic_term": "ضعف البصر",
+    "NAMC_TERM": "Ḍu‘f al-Baṣar",
+    "Short_definition": "Asthenopia/Amblyopia",
+    "Long_definition": "In this condition there is an impairment of vision due to strain during reading, watering of eyes and blurring. It is caused by cold and hot impaired temperament either simple or organic. It is also caused by old age due to excess of Ruṭūbat Faḍliyya (waste material) in the body."
+  },
+  {
+    "Sr No.": "222",
+    "NAMC_ID": "221",
+    "NAMC_CODE": "B-33",
+    "Arabic_term": "تخيلات",
+    "NAMC_TERM": "Takhayyulāt",
+    "Short_definition": "Visual hallucinations",
+    "Long_definition": "False perception of images or objects which actually do not exist. This is due to congestion of morbid humours in brain and nerves. These include: 1. Seeing of pillars of smoke which is divided into many branches later. 2. Seeing of sparkles in front of eye. It is due to the compression of arteries. 3. Seeing of white objects. 4. Seeing of objects bigger than their size. 5. Seeing of objects smaller than their size. 6. Seeing of multiple objects or polyopia. 7. Seeing of objects falling down."
+  },
+  {
+    "Sr No.": "223",
+    "NAMC_ID": "222",
+    "NAMC_CODE": "B-34",
+    "Arabic_term": "قصر البصر",
+    "NAMC_TERM": "Qaṣr al-Baṣar",
+    "Short_definition": "Myopia",
+    "Long_definition": "The increased convexity of lens of the eye due to which patient cannot see distant objects."
+  },
+  {
+    "Sr No.": "224",
+    "NAMC_ID": "223",
+    "NAMC_CODE": "B-35",
+    "Arabic_term": "طول البصر",
+    "NAMC_TERM": "Ṭūl al-Baṣar",
+    "Short_definition": "Hypermetropia",
+    "Long_definition": "The increased concavity of lens of eye due to which patient is unable to see the nearer objects."
+  },
+  {
+    "Sr No.": "225",
+    "NAMC_ID": "224",
+    "NAMC_CODE": "B-36",
+    "Arabic_term": "حول",
+    "NAMC_TERM": "Ḥawal",
+    "Short_definition": "Strabismus/ Squint",
+    "Long_definition": "A condition in which patient especially children use their one eye. When they use both eyes, they see double images of the objects due to different curvatures of eyes. The condition may be congenital due to epilepsy, weakness of the muscles of eye, etc."
+  },
+  {
+    "Sr No.": "226",
+    "NAMC_ID": "225",
+    "NAMC_CODE": "B-37",
+    "Arabic_term": "شب كوري/ عشاء",
+    "NAMC_TERM": "Shabkorī/‘Ashā’",
+    "Short_definition": "Night blindness/Nyctalopia",
+    "Long_definition": "A disease in which patient cannot see properly in dim light and at night. It is due to the accumulation of specific viscous humours which affect optic channels. At day time these viscous humours get dissolved due to increase of temperature, sunlight and physical activity and the patient sees properly at daytime."
+  },
+  {
+    "Sr No.": "227",
+    "NAMC_ID": "226",
+    "NAMC_CODE": "B-38",
+    "Arabic_term": "جهر/ روزكوري",
+    "NAMC_TERM": "Jahar/ Rozkorī",
+    "Short_definition": "Day blindness/Hemeralopia",
+    "Long_definition": "A disease in which patient cannot see properly in day light. It is due to dissolution of Rūḥ Bāṣira (optic pneuma) and humours of eyes in sunlight."
+  },
+  {
+    "Sr No.": "228",
+    "NAMC_ID": "227",
+    "NAMC_CODE": "B-39",
+    "Arabic_term": "خفش",
+    "NAMC_TERM": "Khafash",
+    "Short_definition": "Dazzleness/Glare",
+    "Long_definition": "Its literal meaning is small eye. In this disease, the patient finds it difficult to see clearly in daylight and is unable to tolerate the rays of the sun. Its cause is thinning of cornea and iris."
+  },
+  {
+    "Sr No.": "229",
+    "NAMC_ID": "228",
+    "NAMC_CODE": "B-40",
+    "Arabic_term": "قمور",
+    "NAMC_TERM": "Qumūr",
+    "Short_definition": "Moon blindness/Snow blindness",
+    "Long_definition": "A type of disturbance or fatigue of vision which is caused by the continuous seeing at snow. In this condition sun’s rays from the snow get reflected towards eyes making the vision blurred. This condition occurs not only by continuous staring at snow but it may also be caused by staring at any other bright object also. The condition mainly affects person who travel a lot in snow. The glare of the sun’s rays cause defect of vision in such persons."
+  },
+  {
+    "Sr No.": "230",
+    "NAMC_ID": "229",
+    "NAMC_CODE": "B-41",
+    "Arabic_term": "ذهاب البصر في المطامير والحبوس المظلمة",
+    "NAMC_TERM": "Dhahāb al-Baṣar fi’l Maṭāmīr wa’l Ḥubūs al-Muẓlima",
+    "Short_definition": "blurring of vision due to long stay in darkness",
+    "Long_definition": "A condition in which patient’s pupils get dilated after staying in dark room for a long time. When he comes out, the sun rays cause blurring of vision."
+  },
+  {
+    "Sr No.": "231",
+    "NAMC_ID": "230",
+    "NAMC_CODE": "B-42",
+    "Arabic_term": "بغض العين",
+    "NAMC_TERM": "Bughḍ al-‘Ayn",
+    "Short_definition": "Photophobia",
+    "Long_definition": "The intolerance of light by eyes. It may be caused either by conditions of the eye itself e.g. corneal ulcers, uveitis, kerato conjunctivitis etc. or by some cranial disorders e.g. migraine, trigeminal neuralgia, etc."
+  },
+  {
+    "Sr No.": "232",
+    "NAMC_ID": "231",
+    "NAMC_CODE": "B-43",
+    "Arabic_term": "استرخاء الجفن",
+    "NAMC_TERM": "Istirkhā’ al-Jafn",
+    "Short_definition": "Ptosis",
+    "Long_definition": "The drooping of upper eyelids due to paralysis of eye muscles or congenitally due to the defect of the muscles of eye. It may also be associated with conjunctivitis. Sometimes tumours or any inflammation of eyelids also cause drooping."
+  },
+  {
+    "Sr No.": "233",
+    "NAMC_ID": "232",
+    "NAMC_CODE": "B-44",
+    "Arabic_term": "سقوط القزحية",
+    "NAMC_TERM": "Suqūṭ al-Qazḥiyya",
+    "Short_definition": "Iridoptosis",
+    "Long_definition": "Prolapse of iris due to corneal ulcers."
+  },
+  {
+    "Sr No.": "234",
+    "NAMC_ID": "233",
+    "NAMC_CODE": "B-45",
+    "Arabic_term": "التصاق الجفن",
+    "NAMC_TERM": "Iltiṣāq al-Jafn",
+    "Short_definition": "Symblepharon",
+    "Long_definition": "A disease in which there is an adherence of eyelids after conjunctivitis or some inflammation of eyelids, burn, injury, etc. It can be of two types: 1. adhesion of both eyelids, 2. adhesion of eyelids with eye ball. It is due to some diseased condition of eyeball e.g. corneal ulcers, surgery for Pterygium, trachoma, etc."
+  },
+  {
+    "Sr No.": "235",
+    "NAMC_ID": "234",
+    "NAMC_CODE": "B-46",
+    "Arabic_term": "شتر ہ/ انقلاب الجفن",
+    "NAMC_TERM": "Shatra/ Inqilāb al-Jafn",
+    "Short_definition": "Lagophthalmos",
+    "Long_definition": "Incomplete closure of the eyelids due to stricture and inversion of eyelids. It may be congenital or caused by the inflammation of eyelids, paresis of the muscles of eyelids, malsuturing of eyelids after surgery."
+  },
+  {
+    "Sr No.": "236",
+    "NAMC_ID": "235",
+    "NAMC_CODE": "B-46.1",
+    "Arabic_term": "شترہ داخليہ",
+    "NAMC_TERM": "Shatra Dākhiliyya",
+    "Short_definition": "Entropion",
+    "Long_definition": "Inversion of the eyelids towards the eyeball. This can be congenital, after surgery of eyelids or paralysis of muscles of eyelids. It may be due to scar formation or spasm of muscles."
+  },
+  {
+    "Sr No.": "237",
+    "NAMC_ID": "236",
+    "NAMC_CODE": "B-46.2",
+    "Arabic_term": "شترہ خارجيہ",
+    "NAMC_TERM": "Shatra Khārijiyya",
+    "Short_definition": "Ectropion",
+    "Long_definition": "Aversion of the eyelid i.e. away from the eyeball."
+  },
+  {
+    "Sr No.": "238",
+    "NAMC_ID": "237",
+    "NAMC_CODE": "B-47",
+    "Arabic_term": "صلابة الاجفان/ جسأة الاجفان",
+    "NAMC_TERM": "Ṣalāba al-Ajfān/ Jus’a al-Ajfān",
+    "Short_definition": "Sclerosis of eyelids",
+    "Long_definition": "A condition in which there is thickening and hardening of eyelids due to accumulation of cold and viscous humours. This condition generally occurs after trachoma."
+  },
+  {
+    "Sr No.": "239",
+    "NAMC_ID": "238",
+    "NAMC_CODE": "B-48",
+    "Arabic_term": "سلاق/ بامني",
+    "NAMC_TERM": "Sulāq/ Bāmnī",
+    "Short_definition": "Blepharitis/Tarsitis",
+    "Long_definition": "A type of hardening of eyelid caused by the presence of acute humours in it and is characterized by redness of eyes, itching, falling of eye lashes. It is of two types: acute and chronic."
+  },
+  {
+    "Sr No.": "240",
+    "NAMC_ID": "239",
+    "NAMC_CODE": "B-49",
+    "Arabic_term": "قردان الاجفان",
+    "NAMC_TERM": "Qirdān al-Ajfān",
+    "Short_definition": "Tick infestation of the eyelids",
+    "Long_definition": "These are the ticks found at the root of eyelids. The causative factors include excessive intake of bad quality food, lack of exercise, lack of bathing, along with pouring of putrefied matter towards eyelids."
+  },
+  {
+    "Sr No.": "241",
+    "NAMC_ID": "240",
+    "NAMC_CODE": "B-50",
+    "Arabic_term": "بیاض الہدب",
+    "NAMC_TERM": "Bayāḍ al-Hudub",
+    "Short_definition": "Greying of eyelashes",
+    "Long_definition": "It is the graying of eyelashes. It usually occurs in winters and old age. It may be congenital or may be caused by phlegmatic viscous humour."
+  },
+  {
+    "Sr No.": "242",
+    "NAMC_ID": "241",
+    "NAMC_CODE": "B-51",
+    "Arabic_term": "دمّل الاجفان",
+    "NAMC_TERM": "Dummal al-Ajfān",
+    "Short_definition": "abscess of eyelid",
+    "Long_definition": "It is a small swelling on the external surface of eyelids. It may occur in the central part or on the sides. It is caused by excessive use of diets that produce thick humour which deflects towards eyelids. It leads to difficulty in the movements of eyelids."
+  },
+  {
+    "Sr No.": "243",
+    "NAMC_ID": "242",
+    "NAMC_CODE": "B-52",
+    "Arabic_term": "شر یٰ الاجفان",
+    "NAMC_TERM": "Sharā al-Ajfān",
+    "Short_definition": "reddish swelling on eyelid",
+    "Long_definition": "It is a reddish swelling on the external surface of eyelids. On examination it appears as an insect bite. It is caused by sanguine, yellow bile or mixture of both with the addition of phlegm. It usually affects the children and youngsters."
+  },
+  {
+    "Sr No.": "244",
+    "NAMC_ID": "243",
+    "NAMC_CODE": "B-53",
+    "Arabic_term": "نملۃ الاجفان",
+    "NAMC_TERM": "Namla al-Ajfān",
+    "Short_definition": "cracking of  margins of eyelid",
+    "Long_definition": "It is a condition in which the margins of eyelids get cracked with falling of few eyelashes. The margins are red in color with eruptions. It usually occurs in children and youngsters during summer. It is caused by the accumulation of burnt bilious matter on the eyelids. Initially the pain in the eyelids seems to be simulating with ant bite."
+  },
+  {
+    "Sr No.": "245",
+    "NAMC_ID": "244",
+    "NAMC_CODE": "B-54",
+    "Arabic_term": "ثآ ليل الاجفان",
+    "NAMC_TERM": "Tha’ālīl al-Ajfān",
+    "Short_definition": "wart of eyelid",
+    "Long_definition": "It is a wart appearing on the external surface of eyelids. It is caused by putrefaction of melancholic humour (predominated by cold) flowed into the eyelids."
+  },
+  {
+    "Sr No.": "246",
+    "NAMC_ID": "245",
+    "NAMC_CODE": "B-55",
+    "Arabic_term": "سلعة الاجفان",
+    "NAMC_TERM": "Sal‘a al-Ajfān",
+    "Short_definition": "cyst of eyelid",
+    "Long_definition": "It is of four types: Laḥmiyya, Shaḥmiyya, Shahdiyya, ‘Aṣā’idiyya. It commonly arises during the old age. It is caused by excessive intake of phlegm producing diets and flowing of phlegmatic matter into the eyelids."
+  },
+  {
+    "Sr No.": "247",
+    "NAMC_ID": "246",
+    "NAMC_CODE": "B-56",
+    "Arabic_term": "طرف الاجفان",
+    "NAMC_TERM": "Ṭarf al-Ajfān",
+    "Short_definition": "excessive blinking of eyes",
+    "Long_definition": "It is the excessive trembling of eye lids. It is caused by falling of a foreign body in eyes and accumulation of thick gases in the eye lids. It is the body’s mechanism to get rid of these thick gases from the eyelids."
+  },
+  {
+    "Sr No.": "248",
+    "NAMC_ID": "247",
+    "NAMC_CODE": "B-57",
+    "Arabic_term": "وردینج",
+    "NAMC_TERM": "Wardīnaj",
+    "Short_definition": "severe conjunctivitis",
+    "Long_definition": "It is an acute inflammation which occurs in the inner side of upper or lower eyelids or both. The causative factors include sanguineous matter coming towards eyelids or mixing of yellow bile with sanguineous matter."
+  },
+  {
+    "Sr No.": "249",
+    "NAMC_ID": "248",
+    "NAMC_CODE": "B-58",
+    "Arabic_term": "جسأة الملتحم",
+    "NAMC_TERM": "Jus’a al-Multaḥim",
+    "Short_definition": "hardness of the conjunctiva",
+    "Long_definition": "It is a type of hardness of conjunctiva with difficult eye movement. It is caused by infiltration of thick dry humours towards conjunctiva. It is characterized by slight redness accompanied by difficult movement of eyelids especially after waking up, slight pain and foreign body sensation in the eyes."
+  },
+  {
+    "Sr No.": "250",
+    "NAMC_ID": "249",
+    "NAMC_CODE": "B-59",
+    "Arabic_term": "جرب العين",
+    "NAMC_TERM": "Jarab al-‘Ayn",
+    "Short_definition": "Trachoma",
+    "Long_definition": "Small pustules in the internal surface of eyelids which cause watering of eye and itching."
+  },
+  {
+    "Sr No.": "251",
+    "NAMC_ID": "250",
+    "NAMC_CODE": "B-59.1",
+    "Arabic_term": "جرب منبسط",
+    "NAMC_TERM": "Jarab Munbasiṭ",
+    "Short_definition": "diffused granulation of eyelids",
+    "Long_definition": "Itching of eyes characterised by roughness of eyelids associated with itching and hardening of eyes."
+  },
+  {
+    "Sr No.": "252",
+    "NAMC_ID": "251",
+    "NAMC_CODE": "B-59.2",
+    "Arabic_term": "جرب حصفي",
+    "NAMC_TERM": "Jarab Ḥaṣafī",
+    "Short_definition": "granulation of eyelids with eruptions similar to prickly heat",
+    "Long_definition": "Pustules caused by presence of acute and foul humours in the eyelids."
+  },
+  {
+    "Sr No.": "253",
+    "NAMC_ID": "252",
+    "NAMC_CODE": "B-59.3",
+    "Arabic_term": "جرب تيني/ سقوسلیس",
+    "NAMC_TERM": "Jarab Tīnī/ Suqūsalīs",
+    "Short_definition": "granulation of eyelids with eruptions similar to fig",
+    "Long_definition": "When the pustules of eyelids look like fig."
+  },
+  {
+    "Sr No.": "254",
+    "NAMC_ID": "253",
+    "NAMC_CODE": "B-59.4",
+    "Arabic_term": "جرب اسود",
+    "NAMC_TERM": "Jarab Aswad",
+    "Short_definition": "Trachoma melonum",
+    "Long_definition": "Black eruptions of eyelids with scarring. It is a malignant type."
+  },
+  {
+    "Sr No.": "255",
+    "NAMC_ID": "254",
+    "NAMC_CODE": "B-59.5",
+    "Arabic_term": "جرب عدسي",
+    "NAMC_TERM": "Jarab ‘Adasī",
+    "Short_definition": "Granular itching",
+    "Long_definition": "Lentil shaped eruptions of the eye lids."
+  },
+  {
+    "Sr No.": "256",
+    "NAMC_ID": "255",
+    "NAMC_CODE": "B-60",
+    "Arabic_term": "حكة الآماق والاجفان",
+    "NAMC_TERM": "Ḥikka al-Āmāq wa’l Ajfān",
+    "Short_definition": "itching of eyelids and canthi",
+    "Long_definition": "A type of itching of eye lids due to accumulation of saline humours on them. This causes watering of eyes and ulceration."
+  },
+  {
+    "Sr No.": "257",
+    "NAMC_ID": "256",
+    "NAMC_CODE": "B-61",
+    "Arabic_term": "شرناق",
+    "NAMC_TERM": "Shirnāq",
+    "Short_definition": "lipoma of upper eyelid",
+    "Long_definition": "A fatty swelling of the inner surface of upper eye lids which is chronic in nature. The swelling is immovable. In this condition, there is difficulty in lifting the eye lids, photophobia and watering of eyes."
+  },
+  {
+    "Sr No.": "258",
+    "NAMC_ID": "257",
+    "NAMC_CODE": "B-62",
+    "Arabic_term": "برد ہ",
+    "NAMC_TERM": "Barada",
+    "Short_definition": "Chalazion/Meibomian cyst",
+    "Long_definition": "A phlegmatic swelling of the eyelid which is movable. It appears as a hail on the internal surface of eyelids."
+  },
+  {
+    "Sr No.": "259",
+    "NAMC_ID": "258",
+    "NAMC_CODE": "B-63",
+    "Arabic_term": "عقدة العين",
+    "NAMC_TERM": "‘Uqda al-‘Ayn",
+    "Short_definition": "Tumour of eyelids",
+    "Long_definition": "A type of tumour found in the internal surface of eyelids due to viscous humour which later on becomes hard. It is of three types: 1. Mutaḥarrik i.e. movable e.g. cyst 2. hard type which is immovable 3. Munbasiṭ i.e. spread over the eyelid. Its thickness is not marked. Sometimes it appears reddish in colour with prominent vessels."
+  },
+  {
+    "Sr No.": "260",
+    "NAMC_ID": "259",
+    "NAMC_CODE": "B-64",
+    "Arabic_term": "شعير ہ",
+    "NAMC_TERM": "Sha‘īra",
+    "Short_definition": "Stye/Hordeoleum",
+    "Long_definition": "An inflammation of the root of eye lashes followed by pus formation, swelling, pain and oedema of eyelids."
+  },
+  {
+    "Sr No.": "261",
+    "NAMC_ID": "260",
+    "NAMC_CODE": "B-65",
+    "Arabic_term": "عروسہ",
+    "NAMC_TERM": "‘Arūsa",
+    "Short_definition": "swelling of eyelid",
+    "Long_definition": "An inflammation of the internal surface of eyelids in which signs of inflammation are more severe with more redness, pain and swelling."
+  },
+  {
+    "Sr No.": "262",
+    "NAMC_ID": "261",
+    "NAMC_CODE": "B-66",
+    "Arabic_term": "توثة العين",
+    "NAMC_TERM": "Tūtha al-‘Ayn",
+    "Short_definition": "mulberry shaped growth of eyelids",
+    "Long_definition": "A type of malignant swelling caused by black bile. It is of two types: Dāmiya and  ‘Āmiya."
+  },
+  {
+    "Sr No.": "263",
+    "NAMC_ID": "262",
+    "NAMC_CODE": "B-67",
+    "Arabic_term": "تحجر الاجفان",
+    "NAMC_TERM": "Taḥajjur al-Ajfān",
+    "Short_definition": "stony swelling of inner surface of eyelid",
+    "Long_definition": "Hardness of eyelids caused by viscous black humour."
+  },
+  {
+    "Sr No.": "264",
+    "NAMC_ID": "263",
+    "NAMC_CODE": "B-68",
+    "Arabic_term": "قروح الاجفان",
+    "NAMC_TERM": "Qurūḥ al-Ajfān",
+    "Short_definition": "Ulcers of eyelids",
+    "Long_definition": "Ulcers of eyelids that can be caused by injury to the eye or by infection."
+  },
+  {
+    "Sr No.": "265",
+    "NAMC_ID": "264",
+    "NAMC_CODE": "B-69",
+    "Arabic_term": "تهبج الاجفان",
+    "NAMC_TERM": "Tahabbuj al-Ajfān",
+    "Short_definition": "Oedema of eyelids",
+    "Long_definition": "Oedema or swelling of the eyelids caused by defect in the digestive faculties of the organs e.g. in anaemia."
+  },
+  {
+    "Sr No.": "266",
+    "NAMC_ID": "265",
+    "NAMC_CODE": "B-70",
+    "Arabic_term": "شعر منقلب / انقلاب الشعر",
+    "NAMC_TERM": "Sha‘r Munqalib/ Inqilāb al-Sha‘r",
+    "Short_definition": "Trichiasis",
+    "Long_definition": "Inversion of eyelashes. Inverted eyelashes cause continuous irritation of the eyeball leading to corneal ulcers, pain and watering of eyes."
+  },
+  {
+    "Sr No.": "267",
+    "NAMC_ID": "266",
+    "NAMC_CODE": "B-71",
+    "Arabic_term": "شعر زائد",
+    "NAMC_TERM": "Sha‘r Zā’id",
+    "Short_definition": "Distichiasis",
+    "Long_definition": "Growth of eyelashes from the internal edge of eyelid which create disturbance of vision. The condition is caused by infected fluids which get accumulated at the margins of eyes."
+  },
+  {
+    "Sr No.": "268",
+    "NAMC_ID": "267",
+    "NAMC_CODE": "B-72",
+    "Arabic_term": "انتثار الاهداب",
+    "NAMC_TERM": "Intithār al-Ahdāb",
+    "Short_definition": "Ptilosis",
+    "Long_definition": "Falling of eyelashes caused by malnutrition, waste humours, yellow bile or black bile. As a result of this dirt, dust and sunrays enter the eye easily causing itching, pain and disturbance of vision."
+  },
+  {
+    "Sr No.": "269",
+    "NAMC_ID": "268",
+    "NAMC_CODE": "B-73",
+    "Arabic_term": "قمل الاجفان",
+    "NAMC_TERM": "Qummal al-Ajfān",
+    "Short_definition": "Pediculus blepharitis",
+    "Long_definition": "Lice of eyelids caused by the accumulation of putrified, infected fluids."
+  },
+  {
+    "Sr No.": "270",
+    "NAMC_ID": "269",
+    "NAMC_CODE": "B-74",
+    "Arabic_term": "دمعہ",
+    "NAMC_TERM": "Dam‘a",
+    "Short_definition": "Epiphora",
+    "Long_definition": "A disease in which there is continuous watering of eyes without trichiasis or any other disease of eye. It is caused by improper management of Pterygium or accumulation of fluid in head and eyes."
+  },
+  {
+    "Sr No.": "271",
+    "NAMC_ID": "270",
+    "NAMC_CODE": "B-75",
+    "Arabic_term": "بوالتين",
+    "NAMC_TERM": "Buwālatayn",
+    "Short_definition": "frequent flow of tears",
+    "Long_definition": "Continuous flow of two or three drops of tears at frequent intervals. It is due to the thickening of upper eyelid because of congestion, increased intake of alcohol and sleeplessness. When the thickened eyelid gets in contact with the other eyelid, tears roll down from the eyes."
+  },
+  {
+    "Sr No.": "272",
+    "NAMC_ID": "271",
+    "NAMC_CODE": "B-76",
+    "Arabic_term": "انحطاط طبقة الشبكية و المشيمية",
+    "NAMC_TERM": "Inḥiṭaṭ Ṭabaqa al-Shabakiyya wa’l Mashīmiyya",
+    "Short_definition": "Degeneration of the retina and choroid",
+    "Long_definition": "The degenerative changes in retina and choroid may be congenital or due to malnutrition and old age. It often leads to blindness."
+  },
+  {
+    "Sr No.": "273",
+    "NAMC_ID": "272",
+    "NAMC_CODE": "B-77",
+    "Arabic_term": "تصلب العروق الشبكية",
+    "NAMC_TERM": "Taṣallub al-‘Urūq al-Shabakiyya",
+    "Short_definition": "Retinal arteriosclerosis",
+    "Long_definition": "Sclerosis and thickening of the walls of smaller arteries of retina."
+  },
+  {
+    "Sr No.": "274",
+    "NAMC_ID": "273",
+    "NAMC_CODE": "B-78",
+    "Arabic_term": "انفصال الشبكية",
+    "NAMC_TERM": "Infiṣāl al-Shabakiyya",
+    "Short_definition": "Retinal dettachment",
+    "Long_definition": "A condition where retina is detached from choroid. There is subluxation of retina inwards because of pressure from outside."
+  },
+  {
+    "Sr No.": "275",
+    "NAMC_ID": "274",
+    "NAMC_CODE": "C",
+    "Arabic_term": "امراض اذن انف و حلق",
+    "NAMC_TERM": "Amrāḍ-i-Udhun, Anf wa Ḥalaq",
+    "Short_definition": "Diseases of Ear, Nose and Throat",
+    "Long_definition": ""
+  },
+  {
+    "Sr No.": "276",
+    "NAMC_ID": "275",
+    "NAMC_CODE": "C-1",
+    "Arabic_term": "وجع الاذن",
+    "NAMC_TERM": "Waja‘ al-Udhun",
+    "Short_definition": "Otalgia",
+    "Long_definition": "Pain of the ear can be due to cold and coryza, dental caries, foreign body or water in the ear, maggots of the ear, cleaning of ear with some sharp object, joint pain, ulcers or pustules in the ear, wax of the ear. The condition is marked by redness of ear and burning sensation with piercing pain."
+  },
+  {
+    "Sr No.": "277",
+    "NAMC_ID": "276",
+    "NAMC_CODE": "C-2",
+    "Arabic_term": "طرش",
+    "NAMC_TERM": "Ṭarash",
+    "Short_definition": "Impaired hearing",
+    "Long_definition": "Diminished power of hearing. It can be traumatic, congenital, senile, after acute diseases, hot and cold impaired temperament of ear, infiltration of viscous humours in auditory nerve, obstruction in the ear passage by ear polyp, foreign body or tumours."
+  },
+  {
+    "Sr No.": "278",
+    "NAMC_ID": "277",
+    "NAMC_CODE": "C-3",
+    "Arabic_term": "وقر",
+    "NAMC_TERM": "Waqr",
+    "Short_definition": "Deafness",
+    "Long_definition": "Complete loss of hearing."
+  },
+  {
+    "Sr No.": "279",
+    "NAMC_ID": "278",
+    "NAMC_CODE": "C-4",
+    "Arabic_term": "صمم/ لادي",
+    "NAMC_TERM": "Ṣamam/Lādī",
+    "Short_definition": "Congenital deafness",
+    "Long_definition": "An anomaly where patient has no external ear opening."
+  },
+  {
+    "Sr No.": "280",
+    "NAMC_ID": "279",
+    "NAMC_CODE": "C-5",
+    "Arabic_term": "طنين و دوى",
+    "NAMC_TERM": "Ṭanīn-o-Dawī",
+    "Short_definition": "Tinnitus/Tinnitus aurium",
+    "Long_definition": "A condition in which patient hears non existing voices. The condition can be continuous or intermittent. When the sound is of high pitch it is known as Ṭanīn and when the sound is of low pitch it is known as Dawī. It is due to general weakness, under nourishment, congestion of head with fluids and morbid material ,weakness of the hearing faculties, presence of wax in the ear, etc."
+  },
+  {
+    "Sr No.": "281",
+    "NAMC_ID": "280",
+    "NAMC_CODE": "C-6",
+    "Arabic_term": "انفجار الدم من الاذن",
+    "NAMC_TERM": "Infijār al-Dam mina’l Udhun",
+    "Short_definition": "ear bleeding",
+    "Long_definition": "Bleeding from the ear due to trauma or injury of the ear, insect and reptile bite, congestion of arteries and their rupture. It is often seen in the critical phase of some diseases."
+  },
+  {
+    "Sr No.": "282",
+    "NAMC_ID": "281",
+    "NAMC_CODE": "C-7",
+    "Arabic_term": "ديدان الاٍذن",
+    "NAMC_TERM": "Dīdān al-Udhun",
+    "Short_definition": "Maggots in the ear cavity",
+    "Long_definition": "Maggots in the ear cavity are due to deposition of wax, cold and coryza, etc."
+ }
+]
