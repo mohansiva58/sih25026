@@ -9,14 +9,240 @@ const path = require("path");
 const ayurdata = require('./data/ayurveda.json');
 const siddhadata = require('./data/siddha.json');
 const unanidata = require('./data/unani.json');
+const enhancedAyushData = require('./data/enhanced_ayush.json');
 
 const app = express();
 app.use(cors());
+app.use(express.json()); // Add JSON parsing middleware
 
 // --- Helper Functions for /disease endpoint ---
 function normalize(str) {
   if (!str) return "";
   return str.toLowerCase().replace(/\s+/g, '');
+}
+
+// --- Enhanced Intelligent Search Functions ---
+
+// Scoring algorithm for relevance ranking
+function calculateRelevanceScore(searchTerm, item, filters = {}) {
+  let score = 0;
+  const normalizedTerm = normalize(searchTerm);
+  
+  // Exact keyword match (highest score)
+  if (normalize(item.NAMC_TERM_ENG) === normalizedTerm) {
+    score += 100;
+  }
+  
+  // Partial matches in English term
+  if (normalize(item.NAMC_TERM_ENG).includes(normalizedTerm)) {
+    score += 80;
+  }
+  
+  // Diacritical marks match
+  if (item.DIACRITICAL_MARKS && normalize(item.DIACRITICAL_MARKS).includes(normalizedTerm)) {
+    score += 75;
+  }
+  
+  // Primary symptoms match
+  if (item.primary_symptoms) {
+    const matchingSymptoms = item.primary_symptoms.filter(symptom => 
+      normalize(symptom).includes(normalizedTerm) || normalizedTerm.includes(normalize(symptom))
+    );
+    score += matchingSymptoms.length * 60;
+  }
+  
+  // Associated symptoms match (medium score)
+  if (item.associated_symptoms) {
+    const matchingAssociated = item.associated_symptoms.filter(symptom => 
+      normalize(symptom).includes(normalizedTerm) || normalizedTerm.includes(normalize(symptom))
+    );
+    score += matchingAssociated.length * 40;
+  }
+  
+  // Category match
+  if (item.category && normalize(item.category).includes(normalizedTerm)) {
+    score += 30;
+  }
+  
+  // Apply filters
+  if (filters.age_group && item.age_groups && !item.age_groups.includes('all') && !item.age_groups.includes(filters.age_group)) {
+    score *= 0.5; // Reduce score if age group doesn't match
+  }
+  
+  if (filters.gender && item.gender !== 'all' && item.gender !== filters.gender) {
+    score *= 0.7; // Reduce score if gender doesn't match
+  }
+  
+  if (filters.duration) {
+    if ((filters.duration === 'acute' && !item.duration?.acute) || 
+        (filters.duration === 'chronic' && !item.duration?.chronic)) {
+      score *= 0.6; // Reduce score if duration doesn't match
+    }
+  }
+  
+  return Math.round(score);
+}
+
+// Enhanced search with intelligent ranking
+function intelligentAyushSearch(searchTerm, filters = {}) {
+  const results = [];
+  
+  enhancedAyushData.forEach(item => {
+    const score = calculateRelevanceScore(searchTerm, item, filters);
+    if (score > 20) { // Minimum relevance threshold
+      results.push({
+        ...item,
+        relevance_score: score,
+        confidence: Math.min(score / 100, 1.0) // Convert to confidence percentage
+      });
+    }
+  });
+  
+  // Sort by relevance score descending
+  return results.sort((a, b) => b.relevance_score - a.relevance_score);
+}
+
+// Map AYUSH results with ICD-11 data
+async function mapWithIcdData(ayushResults, icdResults) {
+  const mappedResults = [];
+  
+  for (const ayushItem of ayushResults) {
+    const mappedItem = {
+      ayush_data: ayushItem,
+      icd_mappings: [],
+      combined_confidence: ayushItem.confidence
+    };
+    
+    // Check for pre-defined mappings
+    if (ayushItem.icd_mappings) {
+      for (const mapping of ayushItem.icd_mappings) {
+        const icdMatch = icdResults.find(icd => 
+          (icd.theCode && icd.theCode === mapping.code) || 
+          (icd.code && icd.code === mapping.code)
+        );
+        
+        if (icdMatch) {
+          mappedItem.icd_mappings.push({
+            ...icdMatch,
+            confidence: mapping.confidence,
+            mapping_type: 'pre_defined'
+          });
+          // Boost combined confidence for pre-defined mappings
+          mappedItem.combined_confidence = Math.min(
+            mappedItem.combined_confidence + (mapping.confidence * 0.1), 
+            1.0
+          );
+        }
+      }
+    }
+    
+    // Look for semantic matches in ICD results
+    if (mappedItem.icd_mappings.length === 0) {
+      const semanticMatches = findSemanticIcdMatches(ayushItem, icdResults);
+      mappedItem.icd_mappings.push(...semanticMatches);
+    }
+    
+    mappedResults.push(mappedItem);
+  }
+  
+  return mappedResults.sort((a, b) => b.combined_confidence - a.combined_confidence);
+}
+
+// Find semantic matches between AYUSH and ICD
+function findSemanticIcdMatches(ayushItem, icdResults) {
+  const matches = [];
+  const ayushTerms = [
+    ayushItem.NAMC_TERM_ENG?.toLowerCase(),
+    ...ayushItem.primary_symptoms || [],
+    ayushItem.category?.toLowerCase()
+  ].filter(Boolean);
+  
+  for (const icdItem of icdResults) {
+    const icdTitle = (icdItem.title || icdItem.icdTitle || '').toLowerCase().replace(/<[^>]*>/g, '');
+    
+    for (const ayushTerm of ayushTerms) {
+      if (icdTitle.includes(ayushTerm) || ayushTerm.includes(icdTitle.split(' ')[0])) {
+        matches.push({
+          ...icdItem,
+          confidence: 0.7, // Moderate confidence for semantic matches
+          mapping_type: 'semantic'
+        });
+        break;
+      }
+    }
+  }
+  
+  return matches.slice(0, 3); // Limit semantic matches
+}
+
+// Generate guided questions based on search results
+function generateGuidedQuestions(mappedResults, previousAnswers = {}) {
+  const questions = [];
+  const topResults = mappedResults.slice(0, 3);
+  
+  // Collect all unique questions from top results
+  const questionMap = new Map();
+  
+  topResults.forEach(result => {
+    if (result.ayush_data.clinical_questions) {
+      result.ayush_data.clinical_questions.forEach(q => {
+        if (!previousAnswers[q.id] && !questionMap.has(q.id)) {
+          questionMap.set(q.id, {
+            ...q,
+            relevance_sources: [result.ayush_data.NAMC_CODE]
+          });
+        } else if (!previousAnswers[q.id] && questionMap.has(q.id)) {
+          questionMap.get(q.id).relevance_sources.push(result.ayush_data.NAMC_CODE);
+        }
+      });
+    }
+  });
+  
+  // Sort questions by relevance (how many top results they appear in)
+  const sortedQuestions = Array.from(questionMap.values())
+    .sort((a, b) => b.relevance_sources.length - a.relevance_sources.length);
+  
+  return sortedQuestions.slice(0, 2); // Return max 2 questions at a time
+}
+
+// Refine search based on Q&A answers
+function refineSearchWithAnswers(initialResults, answers) {
+  return initialResults.map(result => {
+    let adjustedConfidence = result.combined_confidence;
+    let scoreAdjustment = 0;
+    
+    if (result.ayush_data.clinical_questions) {
+      result.ayush_data.clinical_questions.forEach(question => {
+        const userAnswer = answers[question.id];
+        if (userAnswer && question.scoring && question.scoring[userAnswer]) {
+          const scoring = question.scoring[userAnswer];
+          
+          // Apply scoring adjustments
+          Object.keys(scoring).forEach(key => {
+            const scoreValue = scoring[key];
+            
+            // Check if this condition matches the AYUSH item characteristics
+            if (key === 'acute' && result.ayush_data.duration?.acute) {
+              scoreAdjustment += scoreValue * 0.1;
+            } else if (key === 'chronic' && result.ayush_data.duration?.chronic) {
+              scoreAdjustment += scoreValue * 0.1;
+            } else if (result.ayush_data.dosha_involvement?.includes(key)) {
+              scoreAdjustment += scoreValue * 0.15;
+            } else if (result.ayush_data.humor_involvement?.includes(key)) {
+              scoreAdjustment += scoreValue * 0.15;
+            }
+            // Add more scoring logic as needed
+          });
+        }
+      });
+    }
+    
+    return {
+      ...result,
+      combined_confidence: Math.min(Math.max(adjustedConfidence + scoreAdjustment, 0), 1.0),
+      score_adjustment: scoreAdjustment
+    };
+  }).sort((a, b) => b.combined_confidence - a.combined_confidence);
 }
 
 /**
@@ -112,6 +338,174 @@ app.get('/terminology/search', (req, res) => {
     results,
     total: results.length
   });
+});
+
+// --- ENHANCED INTELLIGENT SEARCH API ENDPOINTS ---
+
+// Enhanced intelligent search endpoint
+app.get("/api/intelligent-search", async (req, res) => {
+  try {
+    const { 
+      term, 
+      age_group, 
+      gender, 
+      duration, 
+      include_icd = 'true',
+      previous_answers 
+    } = req.query;
+    
+    if (!term) {
+      return res.status(400).json({ error: "Search term is required" });
+    }
+    
+    const filters = {
+      age_group: age_group || null,
+      gender: gender || null,
+      duration: duration || null
+    };
+    
+    // Parse previous answers if provided
+    const answers = previous_answers ? JSON.parse(previous_answers) : {};
+    
+    // Step 1: Intelligent AYUSH search
+    let ayushResults = intelligentAyushSearch(term, filters);
+    
+    // Step 2: Get ICD-11 results if requested
+    let icdResults = [];
+    if (include_icd === 'true') {
+      try {
+        const token = await getIcdToken();
+        const icdResponse = await axios.get(
+          `https://id.who.int/icd/release/11/2024-01/mms/search?q=${encodeURIComponent(term)}`,
+          {
+            headers: {
+              "Authorization": `Bearer ${token}`,
+              "Accept": "application/json",
+              "Accept-Language": "en"
+            }
+          }
+        );
+        
+        icdResults = Array.isArray(icdResponse.data) 
+          ? icdResponse.data 
+          : (icdResponse.data.destinationEntities || []);
+      } catch (icdError) {
+        console.log("ICD search failed, continuing with AYUSH only:", icdError.message);
+      }
+    }
+    
+    // Step 3: Map AYUSH with ICD results
+    let mappedResults = await mapWithIcdData(ayushResults, icdResults);
+    
+    // Step 4: Refine results based on previous answers
+    if (Object.keys(answers).length > 0) {
+      mappedResults = refineSearchWithAnswers(mappedResults, answers);
+    }
+    
+    // Step 5: Generate next guided questions
+    const guidedQuestions = generateGuidedQuestions(mappedResults, answers);
+    
+    // Step 6: Prepare response
+    const response = {
+      search_term: term,
+      filters_applied: filters,
+      total_results: mappedResults.length,
+      top_match: mappedResults[0] || null,
+      other_matches: mappedResults.slice(1, 6), // Top 5 other matches
+      guided_questions: guidedQuestions,
+      has_high_confidence_match: mappedResults.length > 0 && mappedResults[0].combined_confidence > 0.8,
+      timestamp: new Date().toISOString()
+    };
+    
+    res.json(response);
+    
+  } catch (error) {
+    console.error("Intelligent search error:", error);
+    res.status(500).json({ error: "Search failed", details: error.message });
+  }
+});
+
+// Guided Q&A endpoint
+app.post("/api/guided-questions", async (req, res) => {
+  try {
+    const { search_term, answers } = req.body;
+    
+    if (!search_term || !answers) {
+      return res.status(400).json({ error: "Search term and answers are required" });
+    }
+    
+    // Re-run intelligent search with answers
+    const ayushResults = intelligentAyushSearch(search_term);
+    const refinedResults = refineSearchWithAnswers(
+      ayushResults.map(item => ({ ayush_data: item, combined_confidence: item.confidence })), 
+      answers
+    );
+    
+    // Generate next questions
+    const nextQuestions = generateGuidedQuestions(refinedResults, answers);
+    
+    res.json({
+      refined_results: refinedResults.slice(0, 3),
+      next_questions: nextQuestions,
+      answers_processed: Object.keys(answers).length,
+      confidence_improved: refinedResults.length > 0 && refinedResults[0].combined_confidence > 0.85
+    });
+    
+  } catch (error) {
+    console.error("Guided Q&A error:", error);
+    res.status(500).json({ error: "Q&A processing failed", details: error.message });
+  }
+});
+
+// Clinical pathway recommendations endpoint
+app.get("/api/clinical-pathway/:namc_code", async (req, res) => {
+  try {
+    const { namc_code } = req.params;
+    
+    const ayushItem = enhancedAyushData.find(item => item.NAMC_CODE === namc_code);
+    
+    if (!ayushItem) {
+      return res.status(404).json({ error: "AYUSH condition not found" });
+    }
+    
+    const clinicalPathway = {
+      condition: {
+        namc_code: ayushItem.NAMC_CODE,
+        name: ayushItem.NAMC_TERM_ENG,
+        system: ayushItem.system,
+        category: ayushItem.category
+      },
+      icd_mappings: ayushItem.icd_mappings || [],
+      treatment_pathway: ayushItem.treatment_pathway || {},
+      dual_coding_recommendations: {
+        primary_icd: ayushItem.icd_mappings?.[0]?.code || null,
+        primary_ayush: ayushItem.NAMC_CODE,
+        interoperability_notes: [
+          "Use both codes for comprehensive medical records",
+          "ICD-11 for international classification",
+          "AYUSH code for traditional treatment protocols"
+        ]
+      },
+      clinical_guidelines: {
+        diagnostic_criteria: ayushItem.primary_symptoms || [],
+        differential_diagnosis: ayushItem.associated_symptoms || [],
+        severity_indicators: ayushItem.severity || "mild_to_moderate",
+        duration_guidelines: ayushItem.duration || {}
+      },
+      integrated_care_plan: {
+        modern_medicine: "Consult with allopathic physician for severe cases",
+        traditional_medicine: ayushItem.treatment_pathway,
+        lifestyle_medicine: ayushItem.treatment_pathway?.lifestyle_recommendations || [],
+        follow_up: "Monitor symptoms for 7-14 days, reassess if no improvement"
+      }
+    };
+    
+    res.json(clinicalPathway);
+    
+  } catch (error) {
+    console.error("Clinical pathway error:", error);
+    res.status(500).json({ error: "Failed to generate clinical pathway", details: error.message });
+  }
 });
 
 // Check for required environment variables

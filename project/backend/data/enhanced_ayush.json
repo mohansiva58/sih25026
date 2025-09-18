@@ -1,0 +1,299 @@
+[
+  {
+    "NAMC_CODE": "AY001",
+    "NAMC_TERM": "कास",
+    "NAMC_TERM_ENG": "Cough",
+    "DIACRITICAL_MARKS": "Kāsa",
+    "system": "Ayurveda",
+    "category": "Respiratory",
+    "severity": "mild_to_severe",
+    "age_groups": ["all"],
+    "gender": "all",
+    "duration": {
+      "acute": true,
+      "chronic": true,
+      "typical_duration": "1-21 days"
+    },
+    "primary_symptoms": ["cough", "throat_irritation"],
+    "associated_symptoms": ["fever", "phlegm", "chest_tightness", "breathing_difficulty"],
+    "dosha_involvement": ["vata", "kapha"],
+    "subtype": "Vataja",
+    "icd_mappings": [
+      {
+        "code": "MD12",
+        "title": "Cough",
+        "confidence": 0.95
+      },
+      {
+        "code": "CA20.1",
+        "title": "Acute Bronchitis",
+        "confidence": 0.88
+      }
+    ],
+    "clinical_questions": [
+      {
+        "id": "cough_duration",
+        "question": "How long has the cough persisted?",
+        "options": ["< 3 weeks", "3-8 weeks", "> 8 weeks"],
+        "scoring": {
+          "< 3 weeks": { "acute": 0.9, "chronic": 0.1 },
+          "3-8 weeks": { "acute": 0.5, "chronic": 0.5 },
+          "> 8 weeks": { "acute": 0.1, "chronic": 0.9 }
+        }
+      },
+      {
+        "id": "fever_present",
+        "question": "Is fever present?",
+        "options": ["Yes", "No"],
+        "scoring": {
+          "Yes": { "infection": 0.8, "vata": 0.2, "pitta": 0.7 },
+          "No": { "infection": 0.3, "vata": 0.8, "kapha": 0.6 }
+        }
+      },
+      {
+        "id": "phlegm_type",
+        "question": "What type of phlegm is produced?",
+        "options": ["None/Dry", "Clear/White", "Yellow/Green", "Blood-tinged"],
+        "scoring": {
+          "None/Dry": { "vata": 0.9, "kapha": 0.1 },
+          "Clear/White": { "kapha": 0.8, "vata": 0.3 },
+          "Yellow/Green": { "pitta": 0.8, "infection": 0.9 },
+          "Blood-tinged": { "serious": 0.9, "pitta": 0.6 }
+        }
+      }
+    ],
+    "treatment_pathway": {
+      "ayurvedic_treatment": [
+        "Sitopaladi Churna",
+        "Talisadi Churna",
+        "Steam inhalation with eucalyptus"
+      ],
+      "lifestyle_recommendations": [
+        "Avoid cold foods and drinks",
+        "Practice pranayama",
+        "Stay hydrated with warm fluids"
+      ],
+      "diet_recommendations": [
+        "Ginger tea",
+        "Honey with turmeric",
+        "Avoid dairy products"
+      ]
+    }
+  },
+  {
+    "NAMC_CODE": "AY002",
+    "NAMC_TERM": "ज्वर",
+    "NAMC_TERM_ENG": "Fever",
+    "DIACRITICAL_MARKS": "Jvara",
+    "system": "Ayurveda",
+    "category": "General",
+    "severity": "mild_to_severe",
+    "age_groups": ["all"],
+    "gender": "all",
+    "duration": {
+      "acute": true,
+      "chronic": false,
+      "typical_duration": "1-14 days"
+    },
+    "primary_symptoms": ["fever", "body_ache", "fatigue"],
+    "associated_symptoms": ["headache", "chills", "sweating", "loss_of_appetite"],
+    "dosha_involvement": ["pitta", "vata"],
+    "subtype": "Pittaja",
+    "icd_mappings": [
+      {
+        "code": "MG50",
+        "title": "Fever",
+        "confidence": 0.92
+      }
+    ],
+    "clinical_questions": [
+      {
+        "id": "fever_pattern",
+        "question": "What is the fever pattern?",
+        "options": ["Continuous", "Intermittent", "Remittent", "Relapsing"],
+        "scoring": {
+          "Continuous": { "bacterial": 0.7, "pitta": 0.8 },
+          "Intermittent": { "viral": 0.6, "vata": 0.7 },
+          "Remittent": { "viral": 0.8, "pitta": 0.6 },
+          "Relapsing": { "chronic": 0.9, "vata": 0.8 }
+        }
+      }
+    ],
+    "treatment_pathway": {
+      "ayurvedic_treatment": [
+        "Sudarshan Churna",
+        "Maha Sudarshan Kadha",
+        "Tulsi leaves decoction"
+      ],
+      "lifestyle_recommendations": [
+        "Complete rest",
+        "Stay hydrated",
+        "Light, easily digestible food"
+      ]
+    }
+  },
+  {
+    "NAMC_CODE": "AY003",
+    "NAMC_TERM": "श्वास",
+    "NAMC_TERM_ENG": "Dyspnea",
+    "DIACRITICAL_MARKS": "Śvāsa",
+    "system": "Ayurveda",
+    "category": "Respiratory",
+    "severity": "moderate_to_severe",
+    "age_groups": ["adult", "elderly"],
+    "gender": "all",
+    "duration": {
+      "acute": true,
+      "chronic": true,
+      "typical_duration": "variable"
+    },
+    "primary_symptoms": ["breathing_difficulty", "shortness_of_breath"],
+    "associated_symptoms": ["chest_tightness", "wheezing", "anxiety"],
+    "dosha_involvement": ["vata", "kapha"],
+    "subtype": "Vataja",
+    "icd_mappings": [
+      {
+        "code": "MD20",
+        "title": "Dyspnea",
+        "confidence": 0.94
+      },
+      {
+        "code": "CA23",
+        "title": "Asthma",
+        "confidence": 0.78
+      }
+    ],
+    "clinical_questions": [
+      {
+        "id": "breathing_trigger",
+        "question": "What triggers the breathing difficulty?",
+        "options": ["Exercise", "Allergens", "Cold air", "Stress", "No specific trigger"],
+        "scoring": {
+          "Exercise": { "cardiac": 0.6, "asthma": 0.7 },
+          "Allergens": { "asthma": 0.9, "kapha": 0.8 },
+          "Cold air": { "asthma": 0.8, "vata": 0.7 },
+          "Stress": { "anxiety": 0.8, "vata": 0.9 },
+          "No specific trigger": { "chronic": 0.7 }
+        }
+      }
+    ],
+    "treatment_pathway": {
+      "ayurvedic_treatment": [
+        "Bharangyadi Kwath",
+        "Vasavaleha",
+        "Pranayama therapy"
+      ],
+      "lifestyle_recommendations": [
+        "Avoid allergens",
+        "Regular breathing exercises",
+        "Maintain proper posture"
+      ]
+    }
+  },
+  {
+    "NAMC_CODE": "SI001",
+    "NAMC_TERM": "ஏறு",
+    "NAMC_TERM_ENG": "Cough",
+    "DIACRITICAL_MARKS": "Ēṟu",
+    "system": "Siddha",
+    "category": "Respiratory",
+    "severity": "mild_to_moderate",
+    "age_groups": ["all"],
+    "gender": "all",
+    "duration": {
+      "acute": true,
+      "chronic": true,
+      "typical_duration": "1-28 days"
+    },
+    "primary_symptoms": ["cough", "throat_irritation"],
+    "associated_symptoms": ["phlegm", "chest_discomfort"],
+    "humor_involvement": ["vali", "iyam"],
+    "subtype": "Vali",
+    "icd_mappings": [
+      {
+        "code": "MD12",
+        "title": "Cough",
+        "confidence": 0.93
+      }
+    ],
+    "clinical_questions": [
+      {
+        "id": "cough_sound",
+        "question": "How would you describe the cough?",
+        "options": ["Dry/Barking", "Wet/Productive", "Whooping", "Persistent tickle"],
+        "scoring": {
+          "Dry/Barking": { "vali": 0.9, "acute": 0.7 },
+          "Wet/Productive": { "iyam": 0.8, "infection": 0.6 },
+          "Whooping": { "bacterial": 0.9, "serious": 0.7 },
+          "Persistent tickle": { "chronic": 0.8, "vali": 0.7 }
+        }
+      }
+    ],
+    "treatment_pathway": {
+      "siddha_treatment": [
+        "Adathodai Manapagu",
+        "Thalisapatri Chooranam",
+        "Honey with ginger juice"
+      ],
+      "lifestyle_recommendations": [
+        "Avoid cold and sour foods",
+        "Practice deep breathing",
+        "Steam inhalation with medicinal herbs"
+      ]
+    }
+  },
+  {
+    "NAMC_CODE": "UN001",
+    "NAMC_TERM": "سعال",
+    "NAMC_TERM_ENG": "Cough",
+    "DIACRITICAL_MARKS": "Su'āl",
+    "system": "Unani",
+    "category": "Respiratory",
+    "severity": "mild_to_severe",
+    "age_groups": ["all"],
+    "gender": "all",
+    "duration": {
+      "acute": true,
+      "chronic": true,
+      "typical_duration": "1-30 days"
+    },
+    "primary_symptoms": ["cough", "expectoration"],
+    "associated_symptoms": ["chest_pain", "throat_irritation"],
+    "temperament": "cold_dry",
+    "humor_involvement": ["balgham", "safra"],
+    "subtype": "Balgham",
+    "icd_mappings": [
+      {
+        "code": "MD12",
+        "title": "Cough",
+        "confidence": 0.91
+      }
+    ],
+    "clinical_questions": [
+      {
+        "id": "expectoration_quality",
+        "question": "What is the quality of expectoration?",
+        "options": ["None", "Thick white", "Thin clear", "Yellow/Green", "Bloody"],
+        "scoring": {
+          "None": { "cold_dry": 0.9, "chronic": 0.6 },
+          "Thick white": { "balgham": 0.9, "cold": 0.8 },
+          "Thin clear": { "normal": 0.7, "viral": 0.6 },
+          "Yellow/Green": { "safra": 0.8, "bacterial": 0.9 },
+          "Bloody": { "serious": 0.95, "hot": 0.7 }
+        }
+      }
+    ],
+    "treatment_pathway": {
+      "unani_treatment": [
+        "Sharbat-e-Toot Siyah",
+        "Habbe Bukhar",
+        "Steam inhalation with Babuna"
+      ],
+      "dietary_recommendations": [
+        "Avoid cold and moist foods",
+        "Take warm decoctions",
+        "Include mulethi (licorice)"
+      ]
+    }
+  }
+]
